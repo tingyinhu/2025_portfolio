@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Define Tailwind theme variables */
+@theme {
+  /* fonts */
+  --font-title:  "Bricolage Grotesque", serif;
+  --font-description:  "Outfit", serif;
+  --font-button:  "Manrope", serif;
+
+  /* colours */
+  --color-white: oklch(100% 0 0);
+  --color-gray: oklch(94.01% 0 0);
+  --color-black: #222222;
+  --color-beige: oklch(97.64% 0.0208 79.1);
+  --color-orange: oklch(68.14% 0.2135 40.06);
+  --color-orange-bg: #fff6e8;
+  --color-yellow: oklch(84.79% 0.1735 86.06);
+  --color-yellow-bg: #fff8d5;
+  --color-green: oklch(63.74% 0.2112 143.27);
+  --color-green-bg: #D0EADC;
+  --color-blue: oklch(54.18% 0.2542 262.24);
+  --color-blue-bg: #e8f3ff;
+  --color-pink: #F79AC0;
+  --color-orange-outline: #FFCC7E;
+
+  /* Desktop Font Sizes */
+  --text-lg-h1: 2.2rem;
+  --text-lg-h2: 1.75rem;
+  --text-lg-h3: 1.5rem;
+  --text-lg-h4: 1.25rem;
+  --text-lg-p: 1.125rem;
+
+  /* Laptop Font Sizes */
+  --text-md-h1: 2rem;
+  --text-md-h2: 1.75rem;
+  --text-md-h3: 1.5rem;
+  --text-md-h4: 1.25rem;
+  --text-md-p: 1rem;
+
+  /* Mobile Font Sizes */
+  --text-sm-h1: 2rem;
+  --text-sm-h2: 1.75rem;
+  --text-sm-h3: 1.5rem;
+  --text-sm-h4: 1.25rem;
+  --text-sm-p: 1rem;
+
+}

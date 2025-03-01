@@ -1,0 +1,31 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_398_954" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="8" width="19" height="21">
+<path d="M7 7.99997H25.033V28.4475H7V7.99997Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_398_954)">
+<path d="M16.0071 28.4464L8.64839 26.4027L7.00863 8.00083L25.0275 8.00055L23.3867 26.3996L16.0074 28.4462L16.0071 28.4464Z" fill="#0277BD"/>
+</g>
+<path d="M21.9815 25.2284L23.3843 9.50555L16.0185 9.50534V26.8818L21.9815 25.2282V25.2284Z" fill="#039BE5"/>
+<path d="M10.7682 16.3304L10.9703 18.5868H16.0185V16.3304H10.7682Z" fill="#EBEBEB"/>
+<path d="M10.3619 11.7619L10.5669 14.0191H16.0185V11.7619H10.3619Z" fill="#EBEBEB"/>
+<path d="M16.0185 22.1916L16.0086 22.1944L13.4963 21.5154L13.3356 19.7154H11.0711L11.3871 23.2594L16.0079 24.5427L16.0185 24.5399V22.1916Z" fill="#EBEBEB"/>
+<mask id="mask1_398_954" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="11" y="3" width="3" height="4">
+<path d="M11.2482 3H13.9842V6.43399H11.2482V3Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_398_954)">
+<path d="M11.2498 3H13.982V4.14314H12.3923V5.28628H13.982V6.42935H11.2498V3Z" fill="black"/>
+</g>
+<mask id="mask2_398_954" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="14" y="3" width="4" height="4">
+<path d="M14.5238 3H17.2778V6.48799H14.5238V3Z" fill="white"/>
+</mask>
+<g mask="url(#mask2_398_954)">
+<path d="M14.5283 3.00003H17.2606V3.99411H15.6713V4.19288H17.2606V6.47909H14.5283V5.43544H16.1184V5.23653H14.5283V3.00003Z" fill="black"/>
+</g>
+<mask id="mask3_398_954" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="17" y="3" width="4" height="4">
+<path d="M17.8 3H20.554V6.48799H17.8V3Z" fill="white"/>
+</mask>
+<g mask="url(#mask3_398_954)">
+<path d="M17.807 3.00003H20.5392V3.99411H18.9492V4.19288H20.5392V6.47909H17.807V5.43544H19.3963V5.23653H17.807V3.00003Z" fill="black"/>
+</g>
+<path d="M21.2547 16.3306L21.6615 11.7619H16.0108V14.0191H19.1893L18.9845 16.3306H16.0108V18.587H18.7888L18.5267 21.5141L16.0108 22.1939V24.5415L20.6352 23.2596L20.6691 22.878L21.1995 16.9362L21.2547 16.3306Z" fill="white"/>
+</svg>

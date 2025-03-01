@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Mobin Donuts: Crafting a Distinctive Brand Identity",
+    "description": "This project focused on building a cohesive brand identity for Mobin Donut, a Canadian donut brand that prioritizes local ingredients and community connection.",
+    "tools": ["Adobe Suite", "React", "Tailwind", "3D"],
+    "category": "Branding",
+    "image": "/PortfolioCover/MobinDonutCover.gif",
+    "link": "/Mobin-Donut-Project"
+  },
+  {
+    "title": "CassCycle: Enhancing the 2nd Shopping Experience",
+    "description": "This project focuses on improving secondhand shopping experiences by addressing user pain points like slow seller responses, trust issues, and inefficient search filters.",
+    "tools": ["Figma", "Illustrator"],
+    "category": "CaseStudy",
+    "image": "/PortfolioCover/CasscycleCover.webp",
+    "link": "/Casscycle-Project"
+  },
+  {
+    "title": "Eatery: Responsive Website for a Modern Restaurant",
+    "description": "A responsive website for a modern restaurant, featuring a seamless user experience, JavaScript functionality, and a refined design to adapt beautifully across devices.",
+    "tools": ["HTML", "CSS", "JavaScript", "Figma"],
+    "category": "WebDesign",
+    "image": "/PortfolioCover/EateryCover.webp",
+    "link": "/Eatery-Project"
+  },
+  {
+    "title": "KAVi: Redefining Portable Coffee Brewing",
+    "description": "Showcased an all-in-one thermal bottle and coffee brewer through engaging visuals, brewing guides, and interactive customer campaigns.",
+    "tools": ["Photoshop", "Illustrator", "Premiere"],
+    "category": "VisualDesign",
+    "image": "/PortfolioCover/KaviCover.gif",
+    "link": "/Kavi-Project"
+  },
+  {
+    "title": "LMS Golf Wear: Branding for a Celebrity Collaboration",
+    "description": "Golf Wear’s branding project was emphasized its innovative designs and collaboration with Christopher Lee.",
+    "tools": ["Photoshop", "Illustrator", "CLO 3D"],
+    "category": "Branding",
+    "image": "/PortfolioCover/LmsCover.webp",
+    "link": "/Lms-Project"
+  },
+  {
+    "title": "TIANNLI: E-Commerce Website for Premium Dried Fruits",
+    "description": "Designed TIANNLI’s website, focusing on user-friendly layouts, branding alignment, and seamless shopping experiences. Worked with HTML, CSS, and platform customization.",
+    "tools": ["Shopline", "HTML", "CSS", "Illustrator"],
+    "category": "WebDesign",
+    "image": "/PortfolioCover/TanlliCover.webp",
+    "link": "/Tiannli-Project"
+  },
+  {
+    "title": "Toli Culi Pali: Elegant Utensil Set for Fine Dining",
+    "description": "Launched VIIDA’s colourful utensil set with photoshoots and social media campaigns, highlighting ergonomic design, macaron colours, and the elegance of dining rituals.",
+    "tools": ["Photoshop", "Illustrator"],
+    "category": "VisualDesign",
+    "image": "/PortfolioCover/ToliCuliPaliCover.gif",
+    "link": "/ToliCuliPali-Project"
+  },
+  {
+    "title": "VIIDA: Shopify Website for Lifestyle Products",
+    "description": "Created a global Shopify website for VIIDA with a clean, minimalist design using soft grey and white tones for a smooth and safe feel.",
+    "tools": ["Shopify", "FoxKit", "PageFly", "Adobe suite"],
+    "category": "WebDesign",
+    "image": "/PortfolioCover/ViidaCover.webp",
+    "link": "/Viida-Project"
+  },
+  {
+    "title": "UIU Straw x OldHouseFace: Nostalgic Taiwanese Visual",
+    "description": "Showcased the unique UIU Straw in collaboration with OldHouseFace, highlighting Taiwan’s diverse architectural heritage through nostalgic visuals.",
+    "tools": ["Photoshop", "Illustrator"],
+    "category": "VisualDesign",
+    "image": "/PortfolioCover/UiuCover.gif",
+    "link": "/Uiu-Project"
+  },
+  {
+    "title": "Petronew: Online Shop for Pet Health Supplements",
+    "description": "Designed and launched an e-commerce website and visual identity for Petronew, integrating magic-inspired branding, professional healthcare colors, and optimized user experience.",
+    "tools": ["1 Shop", "Adobe suite", "Bootstrap"],
+    "category": "WebDesign",
+    "image": "/PortfolioCover/PetronewCover.webp",
+    "link": "/Petronew-Project"
+  }
+]
