@@ -1,47 +1,93 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faFaceSmileWink,
-  faFolderOpen,
-  faBars,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import HomeIcon from "../../Assets/icon/HomeIcon.svg";
+import AboutIcon from "../../Assets/icon/AboutIcon.svg";
+import PortfolioIcon from "../../Assets/icon/PortfolioIcon.svg";
 
 const sidebarItems = [
-  { id: "home", label: "Home", icon: faHouse, path: "/" },
-  { id: "about", label: "About", icon: faFaceSmileWink, path: "/about" },
+  { id: "home", label: "Home", icon: HomeIcon, path: "/" },
+  { id: "about", label: "About", icon: AboutIcon, path: "/about" },
   {
     id: "portfolio",
     label: "Portfolio",
-    icon: faFolderOpen,
+    icon: PortfolioIcon,
     path: "/portfolio",
   },
 ];
 
 const Sidebar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const location = useLocation(); 
+  const location = useLocation();
 
   const toggleMenu = () => setMobileMenuOpen(!isMobileMenuOpen);
 
   const SidebarItem = ({ label, icon, path }) => {
-    const isActive = location.pathname === path; 
+    const isActive = location.pathname === path;
 
     return (
       <Link
         to={path}
         onClick={() => setMobileMenuOpen(false)}
-        className={`flex items-center gap-3 px-8 py-2 lg:gap-1 lg:flex-col lg:items-center ${
-          isActive ? "text-orange" : "text-black"
-        }`}
+        className="relative flex items-center gap-3 px-8 py-2 lg:gap-1 lg:flex-col lg:items-center"
       >
-        <FontAwesomeIcon
-          icon={icon}
-          className={`text-[24px] ${isActive ? "text-orange" : "text-black"}`}
-        />
-        <span className="font-title font-light text-[14px] ">{label}</span>
+        <div className="relative">
+          {/* SVG Icon */}
+          <svg className="h-6 w-6">
+            {/* Gradient */}
+            <defs>
+            <linearGradient
+              id={`gradient-${label}`}
+              x1="50%"
+              y1="50%"
+              x2="80%"
+              y2="80%"
+            >
+              <stop
+                offset="0%"
+                style={{ stopColor: "#FF5A00", stopOpacity: 1 }} 
+              />
+              <stop
+                offset="100%"
+                style={{ stopColor: "#FFC300", stopOpacity: 1 }} 
+              />
+            </linearGradient>
+            </defs>
+
+            {/* Ori Icon */}
+            {!isActive && (
+              <image href={icon} width="24" height="24" />
+            )}
+
+            {/* Gradient overlay */}
+            {isActive && (
+              <>
+                <mask id={`mask-${label}`}>
+                  <image
+                    href={icon}
+                    width="24"
+                    height="24"
+                    style={{ filter: "brightness(0) invert(1)" }}
+                  />
+                </mask>
+                <rect
+                  width="24"
+                  height="24"
+                  fill={`url(#gradient-${label})`}
+                  mask={`url(#mask-${label})`}
+                />
+              </>
+            )}
+          </svg>
+        </div>
+        <span
+          className={`font-title font-light text-[14px] ${
+            isActive ? "text-orange" : "text-black"
+          }`}
+        >
+          {label}
+        </span>
       </Link>
     );
   };
@@ -66,12 +112,7 @@ const Sidebar = () => {
       >
         <div className="flex flex-col items-start space-y-6 lg:items-center mt-25">
           {sidebarItems.map((item) => (
-            <SidebarItem
-              key={item.id}
-              label={item.label}
-              icon={item.icon}
-              path={item.path}
-            />
+            <SidebarItem key={item.id} {...item} />
           ))}
         </div>
       </nav>

@@ -99,8 +99,8 @@ const RenderContent = ({ content }) => {
 
     case "code":
       return (
-        <div className="w-full">
-          <pre className="bg-gray-800 text-white p-4 rounded overflow-x-auto text-sm">
+        <div className="w-full max-w-full overflow-x-auto">
+          <pre className="bg-gray-800 text-white p-4 rounded text-sm whitespace-pre-wrap break-words">
             <code>{content.code}</code>
           </pre>
         </div>
