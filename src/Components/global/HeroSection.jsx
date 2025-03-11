@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useInView } from "react-intersection-observer";
+import anime from "animejs";
 import Button from "../ui/Button";
 import AnimatedText from "../ui/AnimatedText";
 
@@ -11,6 +13,30 @@ const HeroSection = ({
   animation,
   onButtonClick,
 }) => {
+  const numberRefs = useRef([]);
+
+  const { ref: numbersRef, inView: numbersInView } = useInView({
+    threshold: 0.3,
+  });
+
+  useEffect(() => {
+    if (numbersInView && numbers?.length) {
+      anime({
+        targets: numberRefs.current,
+        innerHTML: (el) => el.dataset.value,
+        round: 1,
+        duration: 1500,
+        easing: "cubicBezier(.5, .05, .1, .3)",
+      });
+    } else if (numbers?.length) {
+      numberRefs.current.forEach((el) => {
+        if (el) {
+          el.innerHTML = "0";
+        }
+      });
+    }
+  }, [numbersInView, numbers]);
+
   return (
     <section className="py-10">
       {/* Logo */}
@@ -34,7 +60,7 @@ const HeroSection = ({
         <AnimatedText
           text={title}
           className="font-title font-semibold text-black text-sm-h1 md:text-md-h1 lg:text-lg-h1"
-          tag="h1" 
+          tag="h1"
         />
       )}
 
@@ -52,13 +78,17 @@ const HeroSection = ({
         </p>
       )}
 
-      {/* Numbers */}
+      {/* Animated Numbers */}
       {numbers && (
-        <div className="flex gap-20 mt-6 md:mt-12">
+        <div ref={numbersRef} className="flex gap-20 mt-6 md:mt-12">
           {numbers.map((number, index) => (
             <div key={index}>
-              <p className="font-title font-semibold text-blue text-sm-h2 md:text-md-h2 lg:text-lg-h2">
-                {number.value}
+              <p
+                ref={(el) => (numberRefs.current[index] = el)}
+                data-value={number.value}
+                className="font-title font-semibold text-blue text-sm-h2 md:text-md-h2 lg:text-lg-h2"
+              >
+                0
               </p>
               <p className="font-description font-light text-black text-sm-p md:text-md-p lg:text-lg-p">
                 {number.label}
