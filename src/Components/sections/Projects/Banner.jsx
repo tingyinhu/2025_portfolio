@@ -2,6 +2,7 @@ import BrandingIcon from "../../../Assets/icon/BrandingIcon.svg";
 import CaseStudyIcon from "../../../Assets/icon/CaseStudyIcon.svg";
 import VisualDesignIcon from "../../../Assets/icon/VisualIcon.svg";
 import WebDesignIcon from "../../../Assets/icon/WebIcon.svg";
+import AnimatedText from "../../ui/AnimatedText";
 
 const categoryIcons = {
   Branding: BrandingIcon,
@@ -30,7 +31,12 @@ const Banner = ({ category, title, background }) => {
         )}
 
         {/* Title */}
-        <h1 className="text-sm-h3 md:text-md-h2 lg:text-lg-h2 font-title font-medium text-black">{title}</h1>
+        <AnimatedText
+        text={title}
+        className="text-sm-h3 md:text-md-h2 lg:text-lg-h2 font-title font-medium text-black"
+        tag="h1"
+      />
+
       </div>
     </div>
   );

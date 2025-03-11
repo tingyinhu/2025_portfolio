@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../ui/Button";
-
+import AnimatedText from "../ui/AnimatedText";
 
 const HeroSection = ({
   title,
@@ -14,14 +14,14 @@ const HeroSection = ({
   return (
     <section className="py-10">
       {/* Logo */}
-      <div class="hidden md:block">
+      <div className="hidden md:block">
         <img
           src="/logo.svg"
           alt="I am Ellie. A designer who adapts, innovates, and creates."
-          class="py-10 w-20 h-auto hover:filter hover:filter-[brightness(0)_saturate(100%)_invert(39%)_sepia(100%)_saturate(2844%)_hue-rotate(2deg)_brightness(104%)_contrast(103%)]"
+          className="py-10 w-20 h-auto hover:filter hover:filter-[brightness(0)_saturate(100%)_invert(39%)_sepia(100%)_saturate(2844%)_hue-rotate(2deg)_brightness(104%)_contrast(103%)]"
         />
       </div>
-      
+
       {/* Animation */}
       {animation && (
         <div className="block mx-auto lpb-10 h-auto w-64 md:absolute md:top-20 md:right-20 md:w-72">
@@ -29,23 +29,25 @@ const HeroSection = ({
         </div>
       )}
 
-      {/* Title */}
+      {/* Animated Title */}
       {title && (
-        <h1 className="font-title font-semibold text-black text-sm-h1 md:text-md-h1 lg:text-lg-h1">
-          {title}
-        </h1>
+        <AnimatedText
+          text={title}
+          className="font-title font-semibold text-black text-sm-h1 md:text-md-h1 lg:text-lg-h1"
+          tag="h1" 
+        />
       )}
 
       {/* Subtitle */}
       {subtitle && (
-        <p className="font-playfair font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2">
+        <h2 className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2">
           {subtitle}
-        </p>
+        </h2>
       )}
 
       {/* Description */}
       {description && (
-        <p className="font-outfit font-light text-black max-w-2xl mt-3 md:mt-6 text-sm-p md:text-md-p lg:text-lg-p">
+        <p className="font-description font-light text-black max-w-2xl mt-3 md:mt-6 text-sm-p md:text-md-p lg:text-lg-p">
           {description}
         </p>
       )}

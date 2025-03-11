@@ -5,6 +5,7 @@ import SmileyFace from "../../../Assets/images/About/smileyFace.svg";
 import BrandingIcon from "../../../Assets/images/About/BrandingIcon.json";
 import VisualDesignIcon from "../../../Assets/images/About/VisualDesignIcon.json";
 import DigitalDesignIcon from "../../../Assets/images/About/DigitalDesignIcon.json";
+import AnimatedText from "../../ui/AnimatedText";
 
 const services = [
   {
@@ -34,9 +35,12 @@ const WhatIDo = () => {
       <img src={SmileyFace} alt="Smiley face" className="w-36 h-36 mb-8" />
 
       {/* Title & Description */}
-      <h2 className="font-title font-medium text-black text-center text-sm-h2 md:text-md-h2 lg:text-lg-h2 ">
-        What I Do
-      </h2>
+      <AnimatedText
+        text="What I Do"
+        className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
+        tag="h2"
+      />
+
       <p className="font-description font-light text-black text-center my-3 text-sm-p md:my-6 md:text-md-p lg:text-lg-p ">
         With 5+ years of experience, I've learned to embrace challenges and keep
         improving with every design.

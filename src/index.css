@@ -49,3 +49,9 @@ html{
   --text-sm-p: 1rem;
 
 }
+
+
+/* AnimatedText*/
+.letter {
+  display: inline-block;
+}

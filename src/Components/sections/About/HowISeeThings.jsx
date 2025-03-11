@@ -3,15 +3,18 @@ import { Link } from "react-router-dom";
 import Button from "../../ui/Button";
 import Lottie from "lottie-react";
 import HowISeeThingsShape from "../../../Assets/images/About/HowISeeThingsShape.json";
+import AnimatedText from "../../ui/AnimatedText";
 
 const HowISeeThings = () => {
   return (
     <section className="flex flex-col items-center py-20 md:flex-row md:justify-between">
       {/* Content */}
       <div className="md:w-1/2 text-left">
-        <h2 className="font-title font-medium text-black text-sm-h2 mb-4 md:text-md-h2 lg:text-lg-h2">
-          How I See Things
-        </h2>
+        <AnimatedText
+          text="How I See Things"
+          className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
+          tag="h2"
+        />
         <p className="font-description font-light text-black text-sm-p mb-6 md:pr-10 md:text-md-p lg:text-lg-p">
           Take a deep breath. Every task is a chance to discover something
           new—like seasoning a dish, where each element adds unique flavour.

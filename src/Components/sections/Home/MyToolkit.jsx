@@ -7,6 +7,7 @@ import cssIcon from "../../../Assets/images/Home/css.svg";
 import javascriptIcon from "../../../Assets/images/Home/javascript.svg";
 import tailwindIcon from "../../../Assets/images/Home/tailwind.svg";
 import reactIcon from "../../../Assets/images/Home/react.svg";
+import AnimatedText from "../../ui/AnimatedText";
 
 const toolKitItem = [
   {
@@ -54,9 +55,13 @@ const toolKitItem = [
 const MyToolKit = () => {
   return (
     <section className="container py-10 md:py-20">
-      <h2 className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2">
-        My Toolkit
-      </h2>
+      
+      <AnimatedText
+        text="My Toolkit"
+        className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
+        tag="h2"
+      />
+
       <p className="font-description font-light text-black mt-3 md:mt-6 text-sm-p md:text-md-p lg:text-lg-p">
         From crafting seamless user experiences to adding playful animations,
         these are the essentials that help me turn imagination into reality.

@@ -10,6 +10,7 @@ import BrandingIcon from "../../../Assets/icon/BrandingIcon.svg";
 import CaseStudyIcon from "../../../Assets/icon/CaseStudyIcon.svg";
 import VisualDesignIcon from "../../../Assets/icon/VisualIcon.svg";
 import WebDesignIcon from "../../../Assets/icon/WebIcon.svg";
+import AnimatedText from "../../ui/AnimatedText";
 
 const categories = [
   {
@@ -75,11 +76,14 @@ const MyProjects = () => {
 
   return (
     <section className="py-10">
-      <h2 className="font-title font-medium text-black mb-6 text-sm-h2 md:text-md-h2 lg:text-lg-h2">
-        My Projects
-      </h2>
-      <div className="w-full overflow-x-auto pb-2">
-      <div className="flex gap-2 mb-8 md:gap-4 w-max">
+      <AnimatedText
+        text="My Projects"
+        className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
+        tag="h2"
+      />
+
+      <div className="w-full overflow-x-auto pb-2 mt-6">
+      <div className="flex gap-2 mb-6 md:gap-4 w-max">
         {categories.map((category) => (
           <Button
             key={category.id}
