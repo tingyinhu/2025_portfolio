@@ -41,7 +41,7 @@ const WhatIDo = () => {
         tag="h2"
       />
 
-      <p className="font-description font-light text-black text-center my-3 text-sm-p md:my-6 md:text-md-p lg:text-lg-p ">
+      <p className="font-description font-light text-black text-center my-6 text-sm-p md:text-md-p lg:text-lg-p ">
         With 5+ years of experience, I've learned to embrace challenges and keep
         improving with every design.
       </p>

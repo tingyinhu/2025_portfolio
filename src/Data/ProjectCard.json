@@ -8,12 +8,12 @@
     "link": "/Mobin-Donut-Project"
   },
   {
-    "title": "CassCycle: Enhancing the 2nd Shopping Experience",
-    "description": "This project focuses on improving secondhand shopping experiences by addressing user pain points like slow seller responses, trust issues, and inefficient search filters.",
-    "tools": ["Figma", "Illustrator"],
+    "title": "Canada.ca Redesign: Enhancing UIUX for Government Services",
+    "description": "To improve the usability of Canada's government website, we conducted a user study focusing on navigation, accessibility, and key user tasks like filing taxes and checking benefits.",
+    "tools": ["Figma"],
     "category": "CaseStudy",
-    "image": "/PortfolioCover/CasscycleCover.webp",
-    "link": "/Casscycle-Project"
+    "image": "/PortfolioCover/CanadacaCover.webp",
+    "link": "/Canadaca-Project"
   },
   {
     "title": "Eatery: Responsive Website for a Modern Restaurant",
@@ -38,6 +38,14 @@
     "category": "Branding",
     "image": "/PortfolioCover/LmsCover.webp",
     "link": "/Lms-Project"
+  },
+  {
+    "title": "CassCycle: Enhancing the 2nd Shopping Experience",
+    "description": "This project focuses on improving secondhand shopping experiences by addressing user pain points like slow seller responses, trust issues, and inefficient search filters.",
+    "tools": ["Figma", "Illustrator"],
+    "category": "CaseStudy",
+    "image": "/PortfolioCover/CasscycleCover.webp",
+    "link": "/Casscycle-Project"
   },
   {
     "title": "TIANNLI: E-Commerce Website for Premium Dried Fruits",

@@ -48,42 +48,51 @@ const RenderContent = ({ content }) => {
         </div>
       );
 
-    case "table":
-      return (
-        <table className="w-full border-collapse border border-gray-300 font-description text-sm-p md:text-md-p lg:text-lg-p">
-          <thead>
-            <tr className="bg-gray-200">
-              {content.headers.map((header, idx) => (
-                <th
-                  key={idx}
-                  className="border border-gray-300 p-2 font-medium text-left"
-                >
-                  {header}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {content.rows.map((row, idx) => (
-              <tr key={idx}>
-                {row.map((cell, i) => (
-                  <td key={i} className="border border-gray-300 p-2">
-                    {Array.isArray(cell) ? (
-                      cell.map((part, partIdx) => (
-                        <p key={partIdx} className={part.className || "mb-2"}>
-                          {part.text}
-                        </p>
-                      ))
-                    ) : (
-                      <p>{cell}</p>
-                    )}
-                  </td>
+      case "table":
+        return (
+          <table className="w-full border-collapse border border-gray-300 font-description text-sm-p md:text-md-p lg:text-lg-p">
+            <thead>
+              <tr className="bg-gray-200">
+                {content.headers.map((header, idx) => (
+                  <th
+                    key={idx}
+                    className="border border-gray-300 p-2 font-medium text-left"
+                  >
+                    {header}
+                  </th>
                 ))}
               </tr>
-            ))}
-          </tbody>
-        </table>
-      );
+            </thead>
+            <tbody>
+              {content.rows.map((row, idx) => (
+                <tr key={idx}>
+                  {row.map((cell, i) => (
+                    <td key={i} className="border border-gray-300 p-2">
+                      {Array.isArray(cell) ? (
+                        cell.map((part, partIdx) =>
+                          part.type === "image" ? (
+                            <img
+                              key={partIdx}
+                              src={part.url}
+                              alt={part.alt}
+                              className={part.className || "w-full"}
+                            />
+                          ) : (
+                            <p key={partIdx} className={part.className || "mb-2"}>
+                              {part.text}
+                            </p>
+                          )
+                        )
+                      ) : (
+                        <p>{cell}</p>
+                      )}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        );
 
     case "image":
       return (

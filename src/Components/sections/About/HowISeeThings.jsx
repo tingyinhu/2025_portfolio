@@ -15,7 +15,7 @@ const HowISeeThings = () => {
           className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
           tag="h2"
         />
-        <p className="font-description font-light text-black text-sm-p mb-6 md:pr-10 md:text-md-p lg:text-lg-p">
+        <p className="font-description font-light text-black text-sm-p my-6 md:pr-10 md:text-md-p lg:text-lg-p">
           Take a deep breath. Every task is a chance to discover something
           new—like seasoning a dish, where each element adds unique flavour.
         </p>

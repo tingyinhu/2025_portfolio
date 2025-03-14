@@ -16,7 +16,7 @@ const LetsCreateTogether = () => {
             tag="h2"
           />
 
-          <p className="font-description font-light text-black s text-sm-p md:text-md-p lg:text-lg-p">
+          <p className="font-description font-light text-black text-sm-p md:text-md-p lg:text-lg-p">
             I’m always looking to collaborate on meaningful and creative
             endeavors. Let’s team up and make something amazing happen!
           </p>

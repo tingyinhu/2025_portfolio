@@ -83,27 +83,27 @@ const MyProjects = () => {
       />
 
       <div className="w-full overflow-x-auto pb-2 mt-6">
-      <div className="flex gap-2 mb-6 md:gap-4 w-max">
-        {categories.map((category) => (
-          <Button
-            key={category.id}
-            color={category.color}
-            outline
-            size="secondary"
-            icon={
-              <img
-                src={category.icon}
-                alt={category.title}
-                className="w-5 h-5"
-              />
-            }
-            onClick={() => scrollToCategory(category.id)}
-          >
-            {category.title}
-          </Button>
-        ))}
+        <div className="flex gap-2 mb-6 md:gap-4 w-max">
+          {categories.map((category) => (
+            <Button
+              key={category.id}
+              color={category.color}
+              outline
+              size="secondary"
+              icon={
+                <img
+                  src={category.icon}
+                  alt={category.title}
+                  className="w-5 h-5"
+                />
+              }
+              onClick={() => scrollToCategory(category.id)}
+            >
+              {category.title}
+            </Button>
+          ))}
+        </div>
       </div>
-</div>
       <div
         ref={containerRef}
         className="flex flex-row gap-6 overflow-x-auto snap-x snap-mandatory md:gap-8"

@@ -3,9 +3,9 @@ import { useInView } from "react-intersection-observer";
 import anime from "animejs";
 
 // AnimatedText Component
-const AnimatedText = ({ text, className, tag = "h1" }) => {
+const AnimatedText = ({ text, className, tag }) => {
   const textRef = useRef(null);
-  const { ref, inView } = useInView({ threshold: 0.3 }); // Removed triggerOnce
+  const { ref, inView } = useInView({ threshold: 0.3 });
 
   useEffect(() => {
     if (inView && textRef.current) {
@@ -27,7 +27,6 @@ const AnimatedText = ({ text, className, tag = "h1" }) => {
     }
   }, [inView, text]);
 
-  // Dynamically create the heading element based on the `tag` prop
   const HeadingTag = tag;
 
   return (

@@ -3392,6 +3392,1355 @@ p{
       },
     ],
   },
+  CanadacaProject: {
+    category: "CaseStudy",
+    liveDemoLink:
+      "https://www.figma.com/design/JCJtDRCOnQRCPL3OUxsTIW/UIUX---canada.ca?node-id=4104-8&t=ZihI70k5qPtQ7tPU-1",
+    sections: [
+      // Introduction
+      {
+        id: "section1",
+        title: "Introduction",
+        layout: "full-width",
+        content: [
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "To improve the usability of Canada's government website, we conducted a user study focusing on ",
+                  className: "text-black",
+                },
+                {
+                  text: "navigation, accessibility, and key user tasks like filing taxes and checking benefits.",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "• Methods Used:",
+                  className: "text-black font-medium",
+                },
+              ],
+              [
+                {
+                  text: "1. Screener Survey – 12 participants",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "2. Usability Testing – 4 participants (Rainbow Sheet & SUS analysis)",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+        ],
+      },
+      // Key Hypothesis
+      {
+        id: "section2",
+        title: "Key Hypothesis",
+        layout: "full-width",
+        content: [
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "1. Users may find the information on Canada.ca regarding tax filing deadlines, required forms, and processes ",
+                  className: "text-black",
+                },
+                {
+                  text: "confusing and difficult to navigate.",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "2. Residents can find details about their tax obligations and whether they need to file taxes, but it ",
+                  className: "text-black",
+                },
+                {
+                  text: "requires considerable effort. ",
+                  className: "text-orange font-medium",
+                },
+                {
+                  text: "The site is text-heavy and lacks visual markers to guide users.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "3. International students may ",
+                  className: "text-black",
+                },
+                {
+                  text: "have trouble locating information ",
+                  className: "text-orange font-medium",
+                },
+                {
+                  text: "about available tuition tax credits and eligibility criteria. Additionally, the site is only available in English and French.",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+        ],
+      },
+      // Screener Survey
+      {
+        id: "section3",
+        title: "Screener Survey",
+        layout: "full-width",
+        content: [
+          // Buyer Side
+          {
+            type: "subtitle",
+            content: "Introduction",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "video",
+            url: "/Projects/Canadaca/CanadacaScreener.mp4",
+          },
+          {
+            layout: "full-width",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "1. We conducted a screener survey to ensure participants matched our target audience.",
+                      className: "text-black",
+                    },
+                  ],
+                  [
+                    {
+                      text: "2. A total of ",
+                      className: "text-black",
+                    },
+                    {
+                      text: "12 participants ",
+                      className: "text-orange font-medium",
+                    },
+                    {
+                      text: "were selected based on relevant criteria.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+          // Key Findings
+          {
+            type: "subtitle",
+            content: "Key Findings",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            layout: "full-width",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "1. Diverse Citizenship Status",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Participants were nearly evenly split between citizens (45.5%) and non-citizens (54.5%).",
+                      className: "text-black",
+                    },
+                  ],
+                  [
+                    {
+                      text: "2. Multilingual Background",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Participants spoke a variety of native languages. Including English, French, Mandarin, Cantonese, Filipino, Spanish, Japanese, and Korean.",
+                      className: "text-black",
+                    },
+                  ],
+                  [
+                    {
+                      text: "3. Prior Government Website Experience",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "83% had previously used government websites from countries outside of Canada.",
+                      className: "text-black",
+                    },
+                  ],
+                  [
+                    {
+                      text: "4. Recent Usage Purpose",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "The most common reason for visiting government websites was Filing Taxes or Checking Benefits (33.3%).",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      // Methodology
+      {
+        id: "section4",
+        title: "Methodology",
+        layout: "full-width",
+        content: [
+          // Testing Approach
+          {
+            type: "subtitle",
+            content: "Testing Approach",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            layout: "three-column",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "1. Task Division",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Split participants into 2 groups (citizens and non-citizens), focusing on real-world scenarios they are likely to encounter.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "2. Observation",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Compare the challenges faced by the native versus non-native users, using the rainbow sheet to record key observations during the session.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "3. Evaluation",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Utilize the SUS (System Usability Scale) to assess user experience.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      // Participants
+      {
+        id: "section5",
+        title: "Participants",
+        layout: "full-width",
+        content: [
+          // Citizens
+          {
+            type: "subtitle",
+            content: "Citizens",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["", "Marty", "Liz"],
+            rows: [
+              [
+                [{ text: "Participants", className: "text-orange" }],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantMarty.png",
+                    alt: "Canadaca Participant Marty",
+                    className: "w-24",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantLiz.png",
+                    alt: "Canadaca Participant Liz",
+                    className: "w-24",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Nationality", className: "text-orange" }],
+                [
+                  {
+                    text: "Canada / U.S.",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Canada",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Age group", className: "text-orange" }],
+                [
+                  {
+                    text: "Baby Boomer (1946 - 1964)",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Gen Z (1997 - 2009)",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Residency Status", className: "text-orange" }],
+                [
+                  {
+                    text: "Dual Citizen",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Citizen",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Primary Language", className: "text-orange" }],
+                [
+                  {
+                    text: "English",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "English",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Occupation & Background", className: "text-orange" }],
+                [
+                  {
+                    text: "Works in I.T. for Worldwide Water Park Design.",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "A student at SFU, studying her fourth year of Kinesiology.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+            ],
+          },
+
+          // Non-Citizens
+          {
+            type: "subtitle",
+            content: "Non-Citizens",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["", "Kobe", "Joyce"],
+            rows: [
+              [
+                [{ text: "Participants", className: "text-orange" }],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantKobe.png",
+                    alt: "Canadaca Participant Kobe",
+                    className: "w-24",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantJoyce.png",
+                    alt: "Canadaca Participant Joyce",
+                    className: "w-24",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Nationality", className: "text-orange" }],
+                [
+                  {
+                    text: "Philippine",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Taiwan",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Age group", className: "text-orange" }],
+                [
+                  {
+                    text: "Gen Z (1997 - 2009)",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Gen Z (1997 - 2009)",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Residency Status", className: "text-orange" }],
+                [
+                  {
+                    text: "Temporary Resident",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Temporary Resident",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Primary Language", className: "text-orange" }],
+                [
+                  {
+                    text: "Filipino",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Mandarin",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [{ text: "Occupation & Background", className: "text-orange" }],
+                [
+                  {
+                    text: "Student at BCIT, studying Language and New Media, in Canada for 1.5 years.",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  {
+                    text: "Student at BCIT, studying Language, in Canada for 2 years.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+            ],
+          },
+        ],
+      },
+      // Usability Testing Introduction
+      {
+        id: "section6",
+        title: "Usability Testing Introduction",
+        layout: "full-width",
+        content: [
+          // Citizens Tasks
+          {
+            type: "subtitle",
+            content: "Citizens Tasks",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["Task", "Breakdown"],
+            rows: [
+              [
+                [
+                  {
+                    text: "1. Find information on filing personal income tax.",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "1. Locate the main page for Taxes on Canada.ca.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "2. Find the required forms needed for filing.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "3. Identify the section covering Filing dates and Payment date for 2024 taxes.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "4. Identify the different filing methods.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "2. Check if you are eligible for a tax credit (CAIP).",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "1. Find the Tax credits of Climate Action Incentive Payment (CAIP) page.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "2. Find the CAIP eligibility criteria.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "3. Check how residents of Canada receive CAIP.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "4. Confirm How much you can get.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "3. Find information on how to pay your income tax online.",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "1. Navigate to the Make a payment to the CRA section on Canada.ca.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "2. Identify the available payment options and review Online Banking Payment Options.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "3. Can I pay my Income Tax (T1) 2024 tax return directly through my bank or credit union?",
+                    className: "text-black",
+                  },
+                ],
+              ],
+            ],
+          },
+
+          // Non-citizens Tasks
+          {
+            type: "subtitle",
+            content: "Non-citizens Tasks",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["Task", "Breakdown"],
+            rows: [
+              [
+                [
+                  {
+                    text: "1. Find information on filing personal income tax.",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "1. Locate the main page for Taxes on Canada.ca.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "2. Find the required forms needed for filing.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "3. Identify the section covering Filing dates and Payment date for 2024 taxes.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "4. Identify the different filing methods.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "2. Find out if you need to file taxes as a temporary resident.",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "1. Find the section about tax obligations for International and non-residents.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "2. Determine if you are a resident and do you need to file taxes.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "3. Search for tuition tax deductions or benefits available for international students.",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "1. Find the page listing tax benefits and credits.",
+                    className: "text-black",
+                  },
+                  {
+                    text: "2. Check the eligibility criteria for tuition tax credits.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+            ],
+          },
+
+          // SUS analysis
+          {
+            type: "subtitle",
+            content: "SUS analysis",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "video",
+            url: "/Projects/Canadaca/CanadacaSus.mp4",
+          },
+          {
+            layout: "full-width",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "1. SUS (System Usability Scale) is a 10-question survey used to measure system usability.",
+                      className: "text-black",
+                    },
+                  ],
+                  [
+                    {
+                      text: "2. Users rate each statement from 1 (strongly disagree) to 5 (strongly agree), providing a score to assess ease of use and areas for improvement.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      // Usability Testing Results
+      {
+        id: "section7",
+        title: "Usability Testing Results",
+        layout: "full-width",
+        content: [
+          // User Testing Times & SUS Scores
+          {
+            type: "subtitle",
+            content: "User Testing Times & SUS Scores",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["Marty", "Liz", "Kobe", "Joyce"],
+            rows: [
+              [
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantMarty.png",
+                    alt: "Canadaca Participant Marty",
+                    className: "w-24",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantLiz.png",
+                    alt: "Canadaca Participant Liz",
+                    className: "w-24",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantKobe.png",
+                    alt: "Canadaca Participant Marty",
+                    className: "w-24",
+                  },
+                ],
+                [
+                  {
+                    type: "image",
+                    url: "/Projects/Canadaca/CanadacaParticipantJoyce.png",
+                    alt: "Canadaca Participant Liz",
+                    className: "w-24",
+                  },
+                ],
+              ],
+              [
+                [{ text: "~4 Mins", className: "text-black" }],
+                [{ text: "~6 Mins 30 Secs", className: "text-black" }],
+                [{ text: "~5 Mins 20 Secs", className: "text-black" }],
+                [{ text: "~14 Mins", className: "text-black" }],
+              ],
+              [
+                [
+                  { text: "92.5 / 100", className: "text-orange text-medium" },
+                  {
+                    text: "Could be described as nearly best imaginable.",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  { text: "35 / 100", className: "text-orange text-medium" },
+                  {
+                    text: "This score may be described as awful.",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  { text: "40 / 100", className: "text-orange text-medium" },
+                  {
+                    text: "This score could be described as poor.",
+                    className: "text-black",
+                  },
+                ],
+                [
+                  { text: "20 / 100", className: "text-orange text-medium" },
+                  {
+                    text: "Could be seen as the worst imaginable score.",
+                    className: "text-black",
+                  },
+                ],
+              ],
+            ],
+          },
+          // Citizens Rainbow Sheet
+          {
+            type: "subtitle",
+            content: "Citizens Rainbow Sheet",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["Challenges", "Marty", "Liz"],
+            rows: [
+              [
+                [
+                  {
+                    text: "Used browser search function (ctrl/cmd + f)",
+                    className: "text-orange",
+                  },
+                ],
+                [],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Navigation challenges",
+                    className: "text-orange",
+                  },
+                ],
+                [],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Overwhelming information (User thought there was too much to read)",
+                    className: "text-orange",
+                  },
+                ],
+                [],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Search effectiveness",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔴",
+                  },
+                ],
+                [
+                  {
+                    text: "",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "No backtracking needed, but breadcrumbs were unclear",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔴",
+                  },
+                ],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "User used search bar",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔴",
+                  },
+                ],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Wording is confusing",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔴",
+                  },
+                ],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Searched keywords as asked, affecting ease of finding information",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔴",
+                  },
+                ],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Unclear eligibility",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "",
+                  },
+                ],
+                [
+                  {
+                    text: "🟡",
+                  },
+                ],
+              ],
+            ],
+          },
+
+          // Non-citizens Rainbow Sheet
+          {
+            type: "subtitle",
+            content: "Non-citizens Rainbow Sheet",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            type: "table",
+            headers: ["Challenges", "Kobe", "Joyce"],
+            rows: [
+              [
+                [
+                  {
+                    text: "Used external search outside website",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [],
+              ],
+              [
+                [
+                  {
+                    text: "Lack of step-by-step guidance",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Difficulty finding official information",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "No backtracking needed, but breadcrumbs were unclear",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Information was overwhelming",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Hard-to-find deduction lists",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [
+                  {
+                    text: "",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Confusing refund process",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [],
+              ],
+              [
+                [
+                  {
+                    text: "Document requirements not clearly outlined",
+                    className: "text-orange",
+                  },
+                ],
+                [
+                  {
+                    text: "🔵",
+                  },
+                ],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Unclear labeling makes information hard to find",
+                    className: "text-orange",
+                  },
+                ],
+                [],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+              [
+                [
+                  {
+                    text: "Information is buried deep, hard to access specific details",
+                    className: "text-orange",
+                  },
+                ],
+                [],
+                [
+                  {
+                    text: "🟢",
+                  },
+                ],
+              ],
+            ],
+          },
+        ],
+      },
+      // Solutions
+      {
+        id: "section8",
+        title: "Solutions",
+        layout: "full-width",
+        content: [
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Streamlined Navigation",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Introduce an expandable hamburger menu for a clean, user-friendly layout.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CanadacaStreamlinedNavigation1.webp",
+                alt: "Streamlined Navigation",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Streamlined Navigation",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Organize the menu into clear categories and subcategories to improve accessibility.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CanadacaStreamlinedNavigation2.webp",
+                alt: "Streamlined Navigation",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Enhanced Search",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Add a large search bar with an intuitive placeholder (“Search government services, benefits, and more...”).",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CandacaEnhancedSearchExperience1.webp",
+                alt: "Enhanced Search",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Enhanced Search",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Implement auto-suggestions for quicker access to key topics.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CandacaEnhancedSearchExperience2.webp",
+                alt: "Enhanced Search",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Top Alert",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Display important alert (e.g., tax deadlines, benefits updates) above the navigation.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CanadacaActionableTopBanner.webp",
+                alt: "Top Alert",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Visual Enhancements",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Added images for each step to make information more digestible.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CanadacaVisualEnhancements.webp",
+                alt: "Visual Enhancements",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Better User Flow",
+                      className: "text-white bg-orange p-2 rounded-full",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Introduced buttons for step selection to help users move through the process easily.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Canadaca/CanadacaBetterUserFlow.webp",
+                alt: "Visual Enhancements",
+                className: "w-full rounded",
+              },
+            ],
+          },
+        ],
+      },
+      // Prototype
+      {
+        id: "section9",
+        title: "Prototype",
+        layout: "full-width",
+        content: [
+          {
+            type: "video",
+            url: "/Projects/Canadaca/CanadaPrototype.mp4",
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default ProjectContent;
