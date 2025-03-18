@@ -1,8 +1,18 @@
-# React + Vite
+2025 Portfolio 🚀
+A responsive, animated portfolio built with React, React Router, Tailwind CSS, Anime.js and Lottie.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+⚡ Modern styling with Tailwind CSS
+⚡ Lottie animations for interactive effects
+⚡ Smooth animatedText with Anime.js
+⚡ Page navigation powered by React Router
 
-Currently, two official plugins are available:
+📥 Installation
+1️⃣ Install Dependencies
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2️⃣ Run the Project
+npm run dev
+
+✨ Author
+Ellie Hu.
