@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Outlet, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Sidebar from "./Components/global/Sidebar";
 import Footer from "./Components/global/Footer";
 import HomePage from "./Pages/HomePage";
@@ -17,6 +18,17 @@ import PetronewProject from "./Pages/ProjectPages/PetronewProject";
 import CanadacaProject from "./Pages/ProjectPages/CanadacaProject";
 
 const Layout = () => {
+  const location = useLocation();
+
+  // Scroll to top while reloading a page
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth", 
+    });
+  }, [location.pathname]);
+
   return (
     <div className="relative grid grid-cols-4 gap-4 md:grid-cols-12 md:gap-5 min-h-screen">
       {/* Empty column for spacing on the left (1 column) */}
@@ -44,6 +56,7 @@ const Layout = () => {
 };
 
 function App() {
+  
   return (
     <Router>
       <Routes>
