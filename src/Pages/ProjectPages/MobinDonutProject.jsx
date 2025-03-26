@@ -10,20 +10,20 @@ const MobinDonutProject = ({ project }) => {
       {/* Banner */}
       <Banner
         category="Branding"
-        title="Mobin Donuts: Crafting a Distinctive Brand Identity"
+        title="Mobin Donuts: Branding to Development"
         background="/Projects/MobinDonut/MobinDonutBanner.webp"
       />
 
       {/* Breadcrumbs */}
-      <Breadcrumbs projectTitle="Mobin Donuts: Crafting a Distinctive Brand Identity" />
+      <Breadcrumbs projectTitle="Mobin Donuts: Branding to Development" />
 
       {/* InformationBox */}
       <InformationBox
         category="Branding"
-        problem="Mobin Donut lacked a distinct identity to connect with its style-conscious, community-driven audience."
-        solution="Crafted a minimalist, premium brand identity with storytelling that highlights local ingredients and shared experiences."
-        tools={["Adobe Suite", "React", "Tailwind", "model viewer"]}
-        roles={["UX Researcher", "UI Designer", "Web Developer"]}
+        problem="Mobin Donut lacked a cohesive brand and digital presence to engage its style-conscious audience."
+        solution="Developed a premium brand identity and a responsive website with storytelling, a 3D model viewer, and a mock API for dynamic content, ensuring a seamless user experience."
+        tools={["Adobe Suite", "React", "Tailwind CSS", "Model Viewer", "Mock API"]}
+        roles={["Brand Designer", "UI Designer", "Front-End Developer"]}
         date="October 1, 2024 → December 10, 2024"
       />
 

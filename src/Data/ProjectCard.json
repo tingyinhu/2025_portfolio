@@ -1,8 +1,8 @@
 [
   {
-    "title": "Mobin Donuts: Crafting a Distinctive Brand Identity",
-    "description": "This project focused on building a cohesive brand identity for Mobin Donut, a Canadian donut brand that prioritizes local ingredients and community connection.",
-    "tools": ["Adobe Suite", "React", "Tailwind", "3D"],
+    "title": "Mobin Donuts: Branding to Development",
+    "description": "Led design and development: branding in Figma, front-end with React, Tailwind CSS, and API integration.",
+    "tools": ["Adobe", "Figma", "React", "Mock API"],
     "category": "Branding",
     "image": "/PortfolioCover/MobinDonutCover.gif",
     "link": "/Mobin-Donut-Project"

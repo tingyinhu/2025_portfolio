@@ -781,15 +781,17 @@ const ProjectContent = {
             content: [
               [
                 {
-                  text: "This project focused on ",
+                  text: "Mobin Donut is a creative branding project developed from scratch, combining ",
                   className: "text-black",
                 },
                 {
-                  text: "building a cohesive brand identity for Mobin Donut, ",
+                  text: "visual identity design with a bonus interactive web experience. ",
                   className: "text-orange font-medium",
                 },
+              ],
+              [
                 {
-                  text: "a Canadian donut brand that prioritizes local ingredients and community connection.",
+                  text: "While the focus started with brand essentials like the logo, packaging, and marketing materials, I extended the project by developing a responsive web prototype, adding a 3D model viewer, API integration, and real-world deployment challenges.",
                   className: "text-black",
                 },
               ],
@@ -800,7 +802,7 @@ const ProjectContent = {
       // Design Process
       {
         id: "section2",
-        title: "Design Process",
+        title: "Branding Process",
         layout: "full-width",
         content: [
           {
@@ -864,7 +866,7 @@ const ProjectContent = {
           },
           {
             type: "subtitle",
-            content: "Development",
+            content: "Design Development",
             bgColor: "bg-orange-bg",
           },
           {
@@ -1025,14 +1027,6 @@ const ProjectContent = {
               },
             ],
           },
-        ],
-      },
-      // Deliverables
-      {
-        id: "section3",
-        title: "Deliverables",
-        layout: "full-width",
-        content: [
           {
             type: "subtitle",
             content: "Brand Essentials",
@@ -1082,6 +1076,228 @@ const ProjectContent = {
                 alt: "Email Campaign",
               },
             ],
+          },
+        ],
+      },
+      // Web Development
+      {
+        id: "section3",
+        title: "Web Development",
+        layout: "full-width",
+        content: [
+          {
+            type: "subtitle",
+            content: "UI Design",
+            bgColor: "bg-orange-bg",
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Grid layout",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "The design uses a 12-column for desktop and 4-column for mobile.",
+                      className: "text-black",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Curves for a Cohesive Look",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Inspired by the brand’s playful elegance, I incorporated rounded shapes in the header, footer, and cards, maintaining consistency with signature curves.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "figma",
+                url: "https://www.figma.com/design/Ang9C8dy1Qyv7CR6xAn3Z2/Mobin-Donut?node-id=0-1",
+              },
+            ],
+          },
+          {
+            type: "subtitle",
+            content: "Technology Stack",
+            bgColor: "bg-orange-bg",
+          },
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "• Modern UI:",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "Sleek user interface powered by React and Tailwind CSS.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Interactive 3D Donut Viewer:",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "Explore donuts in 3D using Model Viewer.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• API Integration:",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "Fetch donut data from a mock API.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Dynamic Cart Logic:",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "Built a functional shopping cart allowing users to add/remove donuts to/from the cart, update quantities of items in the cart and view the total price in real-time.",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+          {
+            type: "subtitle",
+            content: "Challenges & Problem-Solving",
+            bgColor: "bg-orange-bg",
+          },
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "One of the most interesting technical challenges was ",
+                  className: "text-black",
+                },
+                {
+                  text: "hosting the site ",
+                  className: "text-orange font-medium",
+                },
+                {
+                  text: "while ensuring the mock API worked in a real environment:",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Problem",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "This approach bypassed the hosting limitations (my provider didn’t support custom ports) while keeping the user experience smooth and fully functional.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/MobinDonut/MobinDonutHostProblem.webp",
+                alt: "Mobin Donut Host Problem",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Solution",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "I deployed the mock API on Glitch, creating a real, accessible online endpoint that enabled full data fetching without uploading everything to my own domain.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/MobinDonut/MobinDonutGlitch.webp",
+                alt: "Mobin Donut Host Solution",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {},
+              {
+                type: "code",
+                language: "html",
+                code: `
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('donuts.json'); 
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3001; 
+
+server.use(middlewares);
+server.use(router);
+server.listen(port);
+`,
+              },
+            ],
+          },
+        ],
+      },
+      // Deliverable
+      {
+        id: "section4",
+        title: "Deliverable",
+        layout: "full-width",
+        content: [
+          {
+            type: "video",
+            url: "/Projects/MobinDonut/MobinDonutWeb.mp4",
           },
         ],
       },
