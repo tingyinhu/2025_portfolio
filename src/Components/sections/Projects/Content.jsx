@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
 import ProjectContent from "../../../Data/ProjectContent";
 
 const RenderContent = ({ content }) => {
@@ -21,12 +24,13 @@ const RenderContent = ({ content }) => {
                 {Array.isArray(paragraph) ? (
                   paragraph.map((part, partIdx) =>
                     part.type === "image" ? (
-                      <img
-                        key={partIdx}
-                        src={part.url}
-                        alt={part.alt}
-                        className={part.className}
-                      />
+                      <Zoom key={partIdx}>
+                        <img
+                          src={part.url}
+                          alt={part.alt}
+                          className={part.className}
+                        />
+                      </Zoom>
                     ) : (
                       <span key={partIdx} className={part.className || ""}>
                         {part.text}
@@ -48,55 +52,58 @@ const RenderContent = ({ content }) => {
         </div>
       );
 
-      case "table":
-        return (
-          <table className="w-full border-collapse border border-gray-300 font-description text-sm-p md:text-md-p lg:text-lg-p">
-            <thead>
-              <tr className="bg-gray-200">
-                {content.headers.map((header, idx) => (
-                  <th
-                    key={idx}
-                    className="border border-gray-300 p-2 font-medium text-left"
-                  >
-                    {header}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {content.rows.map((row, idx) => (
-                <tr key={idx}>
-                  {row.map((cell, i) => (
-                    <td key={i} className="border border-gray-300 p-2">
-                      {Array.isArray(cell) ? (
-                        cell.map((part, partIdx) =>
-                          part.type === "image" ? (
+    case "table":
+      return (
+        <table className="w-full border-collapse border border-gray-300 font-description text-sm-p md:text-md-p lg:text-lg-p">
+          <thead>
+            <tr className="bg-gray-200">
+              {content.headers.map((header, idx) => (
+                <th
+                  key={idx}
+                  className="border border-gray-300 p-2 font-medium text-left"
+                >
+                  {header}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {content.rows.map((row, idx) => (
+              <tr key={idx}>
+                {row.map((cell, i) => (
+                  <td key={i} className="border border-gray-300 p-2">
+                    {Array.isArray(cell) ? (
+                      cell.map((part, partIdx) =>
+                        part.type === "image" ? (
+                          <Zoom key={partIdx}>
                             <img
-                              key={partIdx}
                               src={part.url}
                               alt={part.alt}
                               className={part.className || "w-full"}
                             />
-                          ) : (
-                            <p key={partIdx} className={part.className || "mb-2"}>
-                              {part.text}
-                            </p>
-                          )
+                          </Zoom>
+                        ) : (
+                          <p key={partIdx} className={part.className || "mb-2"}>
+                            {part.text}
+                          </p>
                         )
-                      ) : (
-                        <p>{cell}</p>
-                      )}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        );
+                      )
+                    ) : (
+                      <p>{cell}</p>
+                    )}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      );
 
     case "image":
       return (
-        <img src={content.url} alt={content.alt} className="w-full rounded" />
+        <Zoom>
+          <img src={content.url} alt={content.alt} className="w-full rounded" />
+        </Zoom>
       );
 
     case "video":
@@ -162,12 +169,13 @@ const TabbedMedia = ({ tabs }) => {
       {/* Media */}
       <div className="w-full rounded overflow-hidden">
         {tabs[activeTab].type === "image" ? (
-          <img
-            key={tabs[activeTab].url}
-            src={tabs[activeTab].url}
-            alt={tabs[activeTab].alt}
-            className="w-full rounded"
-          />
+          <Zoom key={tabs[activeTab].url}>
+            <img
+              src={tabs[activeTab].url}
+              alt={tabs[activeTab].alt}
+              className="w-full rounded"
+            />
+          </Zoom>
         ) : tabs[activeTab].type === "video" ? (
           <video
             key={tabs[activeTab].url} // Forces React to reload the video
