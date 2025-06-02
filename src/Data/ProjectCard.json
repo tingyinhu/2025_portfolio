@@ -8,6 +8,30 @@
     "link": "/Mobin-Donut-Project"
   },
   {
+    "title": "FoodLoop: Reducing Food Waste with Smart Discounts",
+    "description": "FoodLoop tackles the problem of good food being thrown away just because it’s close to its expiry date — something that hurts both the planet and business profits.",
+    "tools": ["Adobe", "Figma"],
+    "category": "CaseStudy",
+    "image": "/PortfolioCover/FoodLoopCover.webp",
+    "link": "/Foodloop-Project"
+  },
+  {
+    "title": "KAVi: Redefining Portable Coffee Brewing",
+    "description": "Showcased an all-in-one thermal bottle and coffee brewer through engaging visuals, brewing guides, and interactive customer campaigns.",
+    "tools": ["Photoshop", "Illustrator", "Premiere"],
+    "category": "VisualDesign",
+    "image": "/PortfolioCover/KaviCover.gif",
+    "link": "/Kavi-Project"
+  },
+  {
+    "title": "VIIDA: Shopify Website for Lifestyle Products",
+    "description": "Created a global Shopify website for VIIDA with a clean, minimalist design using soft grey and white tones for a smooth and safe feel.",
+    "tools": ["Shopify", "FoxKit", "PageFly", "Adobe suite"],
+    "category": "WebDesign",
+    "image": "/PortfolioCover/ViidaCover.webp",
+    "link": "/Viida-Project"
+  },
+  {
     "title": "Canada.ca Redesign: Enhancing UIUX for Government Services",
     "description": "To improve the usability of Canada's government website, we conducted a user study focusing on navigation, accessibility, and key user tasks like filing taxes and checking benefits.",
     "tools": ["Figma"],
@@ -22,14 +46,6 @@
     "category": "WebDesign",
     "image": "/PortfolioCover/EateryCover.webp",
     "link": "/Eatery-Project"
-  },
-  {
-    "title": "KAVi: Redefining Portable Coffee Brewing",
-    "description": "Showcased an all-in-one thermal bottle and coffee brewer through engaging visuals, brewing guides, and interactive customer campaigns.",
-    "tools": ["Photoshop", "Illustrator", "Premiere"],
-    "category": "VisualDesign",
-    "image": "/PortfolioCover/KaviCover.gif",
-    "link": "/Kavi-Project"
   },
   {
     "title": "LMS Golf Wear: Branding for a Celebrity Collaboration",
@@ -62,14 +78,6 @@
     "category": "VisualDesign",
     "image": "/PortfolioCover/ToliCuliPaliCover.gif",
     "link": "/ToliCuliPali-Project"
-  },
-  {
-    "title": "VIIDA: Shopify Website for Lifestyle Products",
-    "description": "Created a global Shopify website for VIIDA with a clean, minimalist design using soft grey and white tones for a smooth and safe feel.",
-    "tools": ["Shopify", "FoxKit", "PageFly", "Adobe suite"],
-    "category": "WebDesign",
-    "image": "/PortfolioCover/ViidaCover.webp",
-    "link": "/Viida-Project"
   },
   {
     "title": "UIU Straw x OldHouseFace: Nostalgic Taiwanese Visual",

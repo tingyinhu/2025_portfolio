@@ -766,6 +766,301 @@ const ProjectContent = {
       },
     ],
   },
+  FoodloopProject: {
+    category: "CaseStudy",
+    liveDemoLink:
+      "https://www.figma.com/proto/0o0xNxnTfWmPdj2z2iTUTG/FoodLoop?node-id=63-4108&t=r1q1zzrD50SmXPLL-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=63%3A4108",
+    sections: [
+      // Introduction
+      {
+        id: "section1",
+        title: "Introduction",
+        layout: "full-width",
+        content: [
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "FoodLoop tackles the problem of good food being thrown away just because it’s close to its expiry date — something that hurts both the planet and business profits.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "The platform helps stores track soon-to-expire items, automatically apply smart discounts or bundles using AI, and donate what’s left to charities.",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+        ],
+      },
+      // Challenges
+      {
+        id: "section2",
+        title: "Challenges",
+        layout: "full-width",
+        content: [
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "image",
+                url: "/Projects/FoodLoop/FoodLoopProblem1.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "1. Too Much Food Waste",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Majority of respondents fall into the 20s group, suggesting a targeted design focus for this demographic.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "image",
+                url: "/Projects/FoodLoop/FoodLoopProblem2.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "2. Profit vs. Waste",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Lowering prices too much can hurt profits. Businesses struggle to reduce waste without losing money.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "image",
+                url: "/Projects/FoodLoop/FoodLoopProblem3.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "3. Customer Doubts",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Shoppers often avoid near-expiry food, worried about freshness or quality — even if it’s safe and discounted.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      // Solutions
+      {
+        id: "section3",
+        title: "Solutions",
+        layout: "full-width",
+        content: [
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "image",
+                url: "/Projects/FoodLoop/FoodLoopSolution1.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "1. Manage Food Before It Goes to Waste",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "The platform tracks food close to expiring, applies automatic discounts, and donates leftovers to charities just in time.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "image",
+                url: "/Projects/FoodLoop/FoodLoopSolution2.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "2. Make More, Waste Less",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Smart pricing and AI-powered bundles help businesses sell more without losing profits — even when items are close to expiration.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "image",
+                url: "/Projects/FoodLoop/FoodLoopSolution3.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "3. Stay in Control",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "A simple inventory system shows what’s in stock, what’s expiring, and lets stores adjust things easily based on real conditions.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      // Story Arc
+      {
+        id: "section4",
+        title: "Story Arc",
+        layout: "full-width",
+        content: [
+          {
+            type: "image",
+            url: "/Projects/FoodLoop/FoodLoopStoryArc.webp",
+            alt: "Story Arc",
+          },
+        ],
+      },
+
+      // Before & After
+      {
+        id: "section5",
+        title: "Before & After",
+        layout: "full-width",
+        content: [
+          {
+            type: "image",
+            url: "/Projects/FoodLoop/FoodLoopBefore&After.webp",
+            alt: "Before & After",
+          },
+        ],
+      },
+
+      // User Insight
+      {
+        id: "section6",
+        title: "User Insight",
+        layout: "full-width",
+        content: [
+          {
+            type: "image",
+            url: "/Projects/FoodLoop/FoodLoopUserInsight.webp",
+            alt: "User Insight",
+          },
+        ],
+      },
+      // Design
+      {
+        id: "section7",
+        title: "Design",
+        layout: "full-width",
+        content: [
+          {
+            type: "subtitle",
+            content: "Assets",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            layout: "full-width",
+            content: [
+              {
+                type: "figma",
+                url: "https://www.figma.com/design/0o0xNxnTfWmPdj2z2iTUTG/FoodLoop?node-id=1-2&t=OLs4DNtjxucQAB79-1",
+              },
+            ],
+          },
+          {
+            type: "subtitle",
+            content: "Views",
+            bgColor: "bg-yellow-bg",
+          },
+          {
+            layout: "full-width",
+            content: [
+              {
+                type: "figma",
+                url: "https://www.figma.com/design/0o0xNxnTfWmPdj2z2iTUTG/FoodLoop?node-id=0-1&t=OLs4DNtjxucQAB79-1",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
   MobinDonutProject: {
     category: "Branding",
     liveDemoLink: "https://mobindonut.hutingyin.com/",

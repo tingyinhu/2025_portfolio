@@ -16,6 +16,7 @@ import ViidaProject from "./Pages/ProjectPages/ViidaProject";
 import UiuProject from "./Pages/ProjectPages/UiuProject";
 import PetronewProject from "./Pages/ProjectPages/PetronewProject";
 import CanadacaProject from "./Pages/ProjectPages/CanadacaProject";
+import FoodLoopProject from "./Pages/ProjectPages/FoodLoopProject";
 
 const Layout = () => {
   const location = useLocation();
@@ -81,6 +82,7 @@ function App() {
           <Route path="/Uiu-Project" element={<UiuProject />} />
           <Route path="/Petronew-Project" element={<PetronewProject />} />
           <Route path="/Canadaca-Project" element={<CanadacaProject />} />
+          <Route path="/Foodloop-Project" element={<FoodLoopProject />} />
         </Route>
       </Routes>
     </Router>
