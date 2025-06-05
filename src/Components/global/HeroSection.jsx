@@ -50,7 +50,7 @@ const HeroSection = ({
 
       {/* Animation */}
       {animation && (
-        <div className="block mx-auto lpb-10 h-auto w-64 md:absolute md:top-20 md:right-20 md:w-72">
+        <div className="block mx-auto pb-10 h-auto w-64 md:absolute md:top-20 md:right-45 md:w-72">
           {animation}
         </div>
       )}
