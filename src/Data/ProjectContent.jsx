@@ -822,7 +822,7 @@ const ProjectContent = {
                   ],
                   [
                     {
-                      text: "Majority of respondents fall into the 20s group, suggesting a targeted design focus for this demographic.",
+                      text: "Tons of near-expiry food are thrown away daily — wasting resources and harming the environment.",
                       className: "text-black",
                     },
                   ],
