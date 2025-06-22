@@ -1,0 +1,124 @@
+{
+  "home": {
+    "title": "Hello, I’m Ellie.",
+    "subtitle": "A designer who adapts, innovates, and creates.",
+    "description": "Design is where beauty meets purpose. I focus on creating harmony and efficiency in every detail. For me, it’s not just about how things look—it’s about how they work together to make an impact.",
+    "numbers": [
+      { "value": "5+", "label": "Years of experience" },
+      { "value": "20+", "label": "Projects done" }
+    ],
+    "buttonText": "Get to Know Me Better",
+    "mytoolkit": "My Toolkit",
+    "mytoolkitDes": "From crafting seamless user experiences to adding playful animations, these are the essentials that help me turn imagination into reality.",
+    "toolkit": {
+      "figma": {
+        "label": "Figma",
+        "desc": "Design tool"
+      },
+      "adobe": {
+        "label": "Adobe Suite",
+        "desc": "Design tool"
+      },
+      "lottie": {
+        "label": "Lottie",
+        "desc": "Design tool"
+      },
+      "html": {
+        "label": "HTML",
+        "desc": "UI"
+      },
+      "css": {
+        "label": "CSS",
+        "desc": "UI"
+      },
+      "javascript": {
+        "label": "JavaScript",
+        "desc": "Interaction"
+      },
+      "tailwind": {
+        "label": "Tailwind",
+        "desc": "Framework"
+      },
+      "react": {
+        "label": "React",
+        "desc": "Framework"
+      }
+    },
+    "myprojects": "My Projects",
+    "seeMyWork": "See My Work",
+    "Branding": {
+      "title": "Branding",
+      "description": "From logos to brand identities, I’ve helped ideas stand out with thoughtful and cohesive designs."
+    },
+    "CaseStudy": {
+      "title": "Case Study",
+      "description": "Diving deep into design solutions, exploring how strategy meets creativity."
+    },
+    "VisualDesign": {
+      "title": "Visual Design",
+      "description": "Bringing ideas to life through engaging and aesthetically pleasing visuals."
+    },
+    "WebDesign": {
+      "title": "Web Design",
+      "description": "Crafting seamless digital experiences with thoughtful design and interaction."
+    },
+    "letsCreateToughter": "Let's Create Together!",
+    "letsCreateToughterDes": "I’m always looking to collaborate on meaningful and creative endeavors. Let’s team up and make something amazing happen!",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formContactMe": "Contact Me"
+  },
+
+  "about": {
+    "title": "About Me",
+    "subtitle": "I thrive on challenges—they’ve shaped who I am.",
+    "description": "My journey has been shaped by curiosity and adaptability. From managing fashion projects in Taiwan to starting fresh in Canada, I’ve embraced challenges that sharpened my creativity and teamwork. Each experience fuels my passion for designing versatile, meaningful solutions that connect with people.",
+    "buttonText": "Download My CV",
+    "whatIdo": "What I Do",
+    "whatIdoDes": "With 5+ years of experience, I've learned to embrace challenges and keep improving with every design.",
+    "services": {
+      "branding": {
+        "title": "Branding",
+        "description": "Giving personality to businesses."
+      },
+      "visualDesign": {
+        "title": "Visual Design",
+        "description": "Crafting eye-catching designs with purpose."
+      },
+      "digitalDesign": {
+        "title": "Digital Design",
+        "description": "Building spaces where creativity meets usability."
+      }
+    },
+    "seeMywork": "See My Work",
+    "howIseeThings": "How I See Things",
+    "howIseeThingsDes1": "Take a deep breath. Every task is a chance to discover something new—like seasoning a dish, where each element adds unique flavour.",
+    "howIseeThingsDes2": "I believe in blending creativity, teamwork, and fun to make ideas shine. Let’s connect and create something great together!",
+    "contactMe": "Contact Me"
+  },
+
+  "portfolio": {
+    "title": "My Creative Path",
+    "subtitle": "A journey of ideas, growth, and design.",
+    "description": "Each project is a chapter in my design journey—showcasing creativity, problem-solving, and collaboration. Take a look at the work I’m proud of:",
+    "all": "All",
+    "branding": "Branding",
+    "caseStudy": "Case Study",
+    "visualDesign": "Visual Design",
+    "webDesign": "Web Design"
+  },
+
+  "sidebar": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio"
+  },
+
+  "footer": {
+    "title": "Discover More",
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio"
+  }
+}

@@ -2,26 +2,25 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
+
 import HomeIcon from "../../Assets/icon/HomeIcon.svg";
 import AboutIcon from "../../Assets/icon/AboutIcon.svg";
 import PortfolioIcon from "../../Assets/icon/PortfolioIcon.svg";
-
-const sidebarItems = [
-  { id: "home", label: "Home", icon: HomeIcon, path: "/" },
-  { id: "about", label: "About", icon: AboutIcon, path: "/about" },
-  {
-    id: "portfolio",
-    label: "Portfolio",
-    icon: PortfolioIcon,
-    path: "/portfolio",
-  },
-];
+import LanguageSwitcher from "../ui/LanguageSwitcher";
 
 const Sidebar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
 
   const toggleMenu = () => setMobileMenuOpen(!isMobileMenuOpen);
+
+  const sidebarItems = [
+    { id: "home", label: t("sidebar.home"), icon: HomeIcon, path: "/" },
+    { id: "about", label: t("sidebar.about"), icon: AboutIcon, path: "/about" },
+    { id: "portfolio", label: t("sidebar.portfolio"), icon: PortfolioIcon, path: "/portfolio" },
+  ];
 
   const SidebarItem = ({ label, icon, path }) => {
     const isActive = location.pathname === path;
@@ -35,32 +34,21 @@ const Sidebar = () => {
         <div className="relative">
           {/* SVG Icon */}
           <svg className="h-6 w-6">
-            {/* Gradient */}
             <defs>
-            <linearGradient
-              id={`gradient-${label}`}
-              x1="50%"
-              y1="50%"
-              x2="80%"
-              y2="80%"
-            >
-              <stop
-                offset="0%"
-                style={{ stopColor: "#FF5A00", stopOpacity: 1 }} 
-              />
-              <stop
-                offset="100%"
-                style={{ stopColor: "#FFC300", stopOpacity: 1 }} 
-              />
-            </linearGradient>
+              <linearGradient
+                id={`gradient-${label}`}
+                x1="50%"
+                y1="50%"
+                x2="80%"
+                y2="80%"
+              >
+                <stop offset="0%" style={{ stopColor: "#FF5A00", stopOpacity: 1 }} />
+                <stop offset="100%" style={{ stopColor: "#FFC300", stopOpacity: 1 }} />
+              </linearGradient>
             </defs>
 
-            {/* Ori Icon */}
-            {!isActive && (
-              <image href={icon} width="24" height="24" />
-            )}
+            {!isActive && <image href={icon} width="24" height="24" />}
 
-            {/* Gradient overlay */}
             {isActive && (
               <>
                 <mask id={`mask-${label}`}>
@@ -106,7 +94,7 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <nav
-        className={`fixed top-0 left-0 h-full bg-beige transition-transform duration-300 overflow-y-auto 
+        className={`fixed top-0 left-0 h-full bg-beige transition-transform duration-300 overflow-y-auto
           ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"} 
           lg:translate-x-0 lg:w-auto w-screen z-10`}
       >
@@ -114,6 +102,9 @@ const Sidebar = () => {
           {sidebarItems.map((item) => (
             <SidebarItem key={item.id} {...item} />
           ))}
+        </div>
+        <div className="flex flex-col lg:items-center mt-50">
+          <LanguageSwitcher />
         </div>
       </nav>
     </>

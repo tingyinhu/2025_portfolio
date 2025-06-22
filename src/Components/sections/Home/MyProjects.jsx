@@ -1,5 +1,7 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 import Button from "../../ui/Button";
 import Lottie from "lottie-react";
 import BrandingCategory from "../../../Assets/images/Home/BrandingCategory.json";
@@ -12,57 +14,46 @@ import VisualDesignIcon from "../../../Assets/icon/VisualIcon.svg";
 import WebDesignIcon from "../../../Assets/icon/WebIcon.svg";
 import AnimatedText from "../../ui/AnimatedText";
 
-const categories = [
-  {
-    id: "Branding",
-    title: "Branding",
-    color: "orange",
-    textColor: "white",
-    btnColor: "blue",
-    animation: BrandingCategory,
-    description:
-      "From logos to brand identities, I’ve helped ideas stand out with thoughtful and cohesive designs.",
-    icon: BrandingIcon,
-  },
-  {
-    id: "CaseStudy",
-    title: "Case Study",
-    color: "yellow",
-    textColor: "black",
-    btnColor: "blue",
-    animation: CaseStudyCategory,
-    description:
-      "Diving deep into design solutions, exploring how strategy meets creativity.",
-    icon: CaseStudyIcon,
-  },
-  {
-    id: "VisualDesign",
-    title: "Visual Design",
-    color: "blue",
-    textColor: "white",
-    btnColor: "orange",
-    animation: VisualCategory,
-    description:
-      "Bringing ideas to life through engaging and aesthetically pleasing visuals.",
-    icon: VisualDesignIcon,
-  },
-  {
-    id: "WebDesign",
-    title: "Web Design",
-    color: "green",
-    textColor: "white",
-    btnColor: "orange",
-    animation: WebCategory,
-    description:
-      "Crafting seamless digital experiences with thoughtful design and interaction.",
-    icon: WebDesignIcon,
-  },
-];
-
 const MyProjects = () => {
   const containerRef = useRef(null);
   const refs = useRef({});
   const navigate = useNavigate();
+  const { t } = useTranslation();
+
+  const categories = [
+    {
+      id: "Branding",
+      color: "orange",
+      textColor: "white",
+      btnColor: "blue",
+      animation: BrandingCategory,
+      icon: BrandingIcon,
+    },
+    {
+      id: "CaseStudy",
+      color: "yellow",
+      textColor: "black",
+      btnColor: "blue",
+      animation: CaseStudyCategory,
+      icon: CaseStudyIcon,
+    },
+    {
+      id: "VisualDesign",
+      color: "blue",
+      textColor: "white",
+      btnColor: "orange",
+      animation: VisualCategory,
+      icon: VisualDesignIcon,
+    },
+    {
+      id: "WebDesign",
+      color: "green",
+      textColor: "white",
+      btnColor: "orange",
+      animation: WebCategory,
+      icon: WebDesignIcon,
+    },
+  ];
 
   const scrollToCategory = (id) => {
     const categoryElement = refs.current[id];
@@ -77,7 +68,7 @@ const MyProjects = () => {
   return (
     <section className="py-10">
       <AnimatedText
-        text="My Projects"
+        text={t("home.myprojects")}
         className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
         tag="h2"
       />
@@ -93,17 +84,18 @@ const MyProjects = () => {
               icon={
                 <img
                   src={category.icon}
-                  alt={category.title}
+                  alt={t(`home.${category.id}.title`)}
                   className="w-5 h-5"
                 />
               }
               onClick={() => scrollToCategory(category.id)}
             >
-              {category.title}
+              {t(`home.${category.id}.title`)}
             </Button>
           ))}
         </div>
       </div>
+
       <div
         ref={containerRef}
         className="flex flex-row gap-6 overflow-x-auto snap-x snap-mandatory md:gap-8"
@@ -118,25 +110,23 @@ const MyProjects = () => {
               <Lottie animationData={category.animation} loop={true} />
             </div>
             <div className="w-full lg:w-1/2 p-4">
-              {/* Title and Description */}
               <h3
                 className={`font-title font-medium text-black mb-2 text-sm-h3 md:text-md-h3 lg:text-lg-h3 text-${category.textColor}`}
               >
-                {category.title}
+                {t(`home.${category.id}.title`)}
               </h3>
               <p
                 className={`font-description font-light text-black mb-6 text-sm-p md:text-md-p text-${category.textColor}`}
               >
-                {category.description}
+                {t(`home.${category.id}.description`)}
               </p>
 
-              {/* Button */}
               <Button
                 size="secondary"
                 color={category.btnColor}
                 onClick={() => navigate(`/portfolio?category=${category.id}`)}
               >
-                See My Work
+                {t("home.seeMyWork")}
               </Button>
             </div>
           </div>
@@ -145,5 +135,6 @@ const MyProjects = () => {
     </section>
   );
 };
+
 
 export default MyProjects;

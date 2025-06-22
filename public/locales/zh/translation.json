@@ -1,0 +1,124 @@
+{
+  "home": {
+    "title": "嗨，我是Ellie，",
+    "subtitle": "一個熱愛設計、追求創新的設計師。",
+    "description": "我相信，好的設計不僅要好看，更要好用！擅長打磨細節，讓設計既美觀又實用。",
+    "numbers": [
+      { "value": "5年+", "label": "專業經驗" },
+      { "value": "20件+", "label": "實戰作品" }
+    ],
+    "buttonText": "來更認識我一點",
+    "mytoolkit": "使用工具",
+    "mytoolkitDes": "我熟練運用以下工具與技術，將設計概念轉化為實際產品方案。",
+    "toolkit": {
+      "figma": {
+        "label": "Figma",
+        "desc": "介面原型"
+      },
+      "adobe": {
+        "label": "Adobe Suite",
+        "desc": "平面動態"
+      },
+      "lottie": {
+        "label": "Lottie",
+        "desc": "動畫整合"
+      },
+      "html": {
+        "label": "HTML",
+        "desc": "網頁結構"
+      },
+      "css": {
+        "label": "CSS",
+        "desc": "網頁樣式"
+      },
+      "javascript": {
+        "label": "JavaScript",
+        "desc": "網頁互動"
+      },
+      "tailwind": {
+        "label": "Tailwind",
+        "desc": "CSS框架"
+      },
+      "react": {
+        "label": "React",
+        "desc": "前端函式庫"
+      }
+    },
+    "myprojects": "我的作品",
+    "seeMyWork": "查看作品",
+    "Branding": {
+      "title": "品牌設計",
+      "description": "從標誌到識別系統，透過細節創造獨特性，讓每個品牌都能脫穎而出。"
+    },
+    "CaseStudy": {
+      "title": "個案研究",
+      "description": "從記錄用戶行為分析、同理心洞察到打造解決方案的完整設計脈絡。"
+    },
+    "VisualDesign": {
+      "title": "廣告設計",
+      "description": "專注於打造高轉換率的視覺，有效傳遞品牌理念，精準提升廣告成效。"
+    },
+    "WebDesign": {
+      "title": "網頁設計",
+      "description": "結合趨勢技術與人性化設計，打造無縫流暢的數位體驗。"
+    },
+    "letsCreateToughter": "合作邀約",
+    "letsCreateToughterDes": "熱衷於參與創新、有意義的設計專案。無論是品牌重塑、產品設計，或是數位體驗優化，期待與您攜手打造令人驚豔的成果。",
+    "formName": "姓名",
+    "formEmail": "信箱",
+    "formMessage": "內容",
+    "formContactMe": "立即合作"
+  },
+
+  "about": {
+    "title": "關於我",
+    "subtitle": "挑戰，是我最好的設計夥伴。",
+    "description": "我深信，每個難題都是創意的養分。從台灣時尚產業的專案管理，到加拿大從零開始的跨領域探索，這些經歷淬鍊了我的適應力與團隊協作能力，更讓我擅長打造兼具靈活性與深度的設計方案——因為好的設計，永遠源自對「人」的理解。",
+    "buttonText": "下載我的履歷",
+    "whatIdo": "設計服務",
+    "whatIdoDes": "設計，是商業難題的最佳解答——我擅長打造品牌基因與數位體驗，讓美學與商業完美融合。",
+    "services": {
+      "branding": {
+        "title": "品牌設計",
+        "description": "從市場定位到視覺DNA系統化建構，打造具商業辨識度的品牌生態。"
+      },
+      "visualDesign": {
+        "title": "視覺設計",
+        "description": "透過精準的版式、色彩與動畫，打造零距離的視覺溝通體驗。"
+      },
+      "digitalDesign": {
+        "title": "產品設計",
+        "description": "以用戶旅程為核心，構建轉化率導向的UI/UX系統。"
+      }
+    },
+    "seeMywork":"我的作品",
+    "howIseeThings":"設計哲學",
+    "howIseeThingsDes1":"「深呼吸，每個任務都是風味的探索。」",
+    "howIseeThingsDes2":"設計如烹飪：以創意為基底，團隊協作為香料，調和出完美平衡的作品——唯有快樂的團隊，才能創造令人回味的好設計。",
+    "contactMe":"聯絡我"
+  },
+
+  "portfolio": {
+    "title": "我的作品",
+    "subtitle": "一段充滿靈感、成長與創作的旅程。",
+    "description": "每個作品都是我設計路上的故事——關於創意、解決問題，以及團隊合作。這些是我完成的作品：",
+    "all": "全部作品",
+    "branding": "品牌設計",
+    "caseStudy": "個案研究",
+    "visualDesign": "廣告設計",
+    "webDesign": "網頁設計"
+  },
+
+  "sidebar": {
+    "home": "首頁",
+    "about": "關於我",
+    "portfolio": "我的作品"
+  },
+
+    "footer": {
+    "title": "Discover More",
+    "home": "首頁",
+    "about": "關於我",
+    "portfolio": "我的作品"
+  }
+}

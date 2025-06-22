@@ -1,24 +1,25 @@
-import React from "react";
+import { useTranslation } from "react-i18next";
+
 import Button from "../../ui/Button";
 import Lottie from "lottie-react";
 import LetsCreateTogetherAnimation from "../../../Assets/images/Home/LetsCreateTogether.json";
 import AnimatedText from "../../ui/AnimatedText";
 
 const LetsCreateTogether = () => {
+    const { t } = useTranslation();
   return (
     <section className="py-20">
       <div className="container flex flex-col md:flex-row items-start justify-between gap-10 md:gap-30">
         {/* Left */}
         <div className="md:w-1/2 w-full space-y-6">
           <AnimatedText
-            text="Let's Create Together!"
+            text={t("home.letsCreateToughter")}
             className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
             tag="h2"
           />
 
           <p className="font-description font-light text-black text-sm-p md:text-md-p lg:text-lg-p">
-            I’m always looking to collaborate on meaningful and creative
-            endeavors. Let’s team up and make something amazing happen!
+            {t("home.letsCreateToughterDes")}
           </p>
           <Lottie
             animationData={LetsCreateTogetherAnimation}
@@ -39,7 +40,7 @@ const LetsCreateTogether = () => {
                 htmlFor="name"
                 className="block font-description font-light text-sm-p md:text-md-p mb-2"
               >
-                Name
+                {t("home.formName")}
               </label>
               <input
                 type="text"
@@ -58,7 +59,7 @@ const LetsCreateTogether = () => {
                 htmlFor="email"
                 className="block font-description font-light text-sm-p md:text-md-p mb-2"
               >
-                Email
+                {t("home.formEmail")}
               </label>
               <input
                 type="email"
@@ -77,7 +78,7 @@ const LetsCreateTogether = () => {
                 htmlFor="message"
                 className="block font-description font-light text-sm-p md:text-md-p mb-2"
               >
-                Message
+                {t("home.formMessage")}
               </label>
               <textarea
                 name="message"
@@ -91,7 +92,7 @@ const LetsCreateTogether = () => {
 
           {/* Button */}
           <Button size="primary" color="orange" type="submit">
-            Contact Me
+            {t("home.formContactMe")}
           </Button>
         </form>
       </div>

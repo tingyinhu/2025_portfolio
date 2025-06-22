@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 import Button from "../../ui/Button";
 import Lottie from "lottie-react";
 import SmileyFace from "../../../Assets/images/About/smileyFace.svg";
@@ -9,26 +11,21 @@ import AnimatedText from "../../ui/AnimatedText";
 
 const services = [
   {
-    id: 1,
-    title: "Branding",
-    description: "Giving personality to businesses.",
+    id: "branding",
     icon: BrandingIcon,
   },
   {
-    id: 2,
-    title: "Visual Design",
-    description: "Crafting eye-catching designs with purpose.",
+    id: "visualDesign",
     icon: VisualDesignIcon,
   },
   {
-    id: 3,
-    title: "Digital Design",
-    description: "Building spaces where creativity meets usability.",
+    id: "digitalDesign",
     icon: DigitalDesignIcon,
   },
 ];
 
 const WhatIDo = () => {
+  const { t } = useTranslation();
   return (
     <section className="flex flex-col items-center justify-center rounded-full w-full px-2 py-20 my-10 bg-yellow">
       {/* Smiley Face */}
@@ -36,14 +33,13 @@ const WhatIDo = () => {
 
       {/* Title & Description */}
       <AnimatedText
-        text="What I Do"
+        text={t("about.whatIdo")}
         className="font-title font-medium text-black text-sm-h2 md:text-md-h2 lg:text-lg-h2"
         tag="h2"
       />
 
       <p className="font-description font-light text-black text-center my-6 text-sm-p md:text-md-p lg:text-lg-p ">
-        With 5+ years of experience, I've learned to embrace challenges and keep
-        improving with every design.
+        {t("about.whatIdoDes")}
       </p>
 
       {/* Service */}
@@ -61,10 +57,10 @@ const WhatIDo = () => {
             </div>
             <div className="text-left">
               <h3 className="font-title font-medium text-black text-sm-h3 md:text-md-h3 lg:text-lg-h3">
-                {service.title}
+                {t(`about.services.${service.id}.title`)}
               </h3>
               <p className="font-description font-light text-black text-sm-p md:text-md-p lg:text-lg-p">
-                {service.description}
+                {t(`about.services.${service.id}.description`)}
               </p>
             </div>
           </div>
@@ -75,7 +71,7 @@ const WhatIDo = () => {
       <div className="my-10">
         <Link to="/portfolio">
           <Button size="primary" color="blue">
-            See My Work
+            {t("about.seeMywork")}
           </Button>
         </Link>
       </div>

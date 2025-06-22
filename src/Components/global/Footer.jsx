@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
@@ -20,6 +21,7 @@ const Footer = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const { t } = useTranslation();
   return (
     <footer className="border-t border-orange-outline py-10 px-6 md:flex md:justify-evenly">
       {/* Logo */}
@@ -28,7 +30,7 @@ const Footer = () => {
       {/* Discover More */}
       <div className="mb-10">
         <h3 className="font-title font-medium text-black mb-4 text-sm-h4 md:text-md-h4 lg:text-lg-h4">
-          Discover More
+          {t("footer.title")}
         </h3>
         <ul>
           <li>
@@ -36,7 +38,7 @@ const Footer = () => {
               href="/"
               className="font-description font-light text-black text-sm-p md:text-md-p lg:text-lg-p hover:text-orange"
             >
-              Home
+              {t("footer.home")}
             </a>
           </li>
           <li>
@@ -44,7 +46,7 @@ const Footer = () => {
               href="/about"
               className="font-description font-light text-black text-sm-p md:text-md-p lg:text-lg-p hover:text-orange"
             >
-              About Me
+              {t("footer.about")}
             </a>
           </li>
           <li>
@@ -52,7 +54,7 @@ const Footer = () => {
               href="/portfolio"
               className="font-description font-light text-sm-p md:text-md-p lg:text-lg-p hover:text-orange"
             >
-              Portfolio
+              {t("footer.portfolio")}
             </a>
           </li>
         </ul>
