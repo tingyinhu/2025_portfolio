@@ -7,13 +7,13 @@
     "image": "/PortfolioCover/MobinDonutCover.gif",
     "link": "/Mobin-Donut-Project"
   },
-  {
-    "title": "FoodLoop: Reducing Food Waste with Smart Discounts",
-    "description": "FoodLoop tackles the problem of good food being thrown away just because it’s close to its expiry date — something that hurts both the planet and business profits.",
-    "tools": ["Adobe", "Figma"],
-    "category": "CaseStudy",
-    "image": "/PortfolioCover/FoodLoopCover.webp",
-    "link": "/Foodloop-Project"
+    {
+    "title": "VIIDA: Shopify Website for Lifestyle Products",
+    "description": "Created a global Shopify website for VIIDA with a clean, minimalist design using soft grey and white tones for a smooth and safe feel.",
+    "tools": ["Shopify", "FoxKit", "PageFly", "Adobe suite"],
+    "category": "WebDesign",
+    "image": "/PortfolioCover/ViidaCover.webp",
+    "link": "/Viida-Project"
   },
   {
     "title": "KAVi: Redefining Portable Coffee Brewing",
@@ -23,13 +23,13 @@
     "image": "/PortfolioCover/KaviCover.gif",
     "link": "/Kavi-Project"
   },
-  {
-    "title": "VIIDA: Shopify Website for Lifestyle Products",
-    "description": "Created a global Shopify website for VIIDA with a clean, minimalist design using soft grey and white tones for a smooth and safe feel.",
-    "tools": ["Shopify", "FoxKit", "PageFly", "Adobe suite"],
-    "category": "WebDesign",
-    "image": "/PortfolioCover/ViidaCover.webp",
-    "link": "/Viida-Project"
+    {
+    "title": "FoodLoop: Reducing Food Waste with Smart Discounts",
+    "description": "FoodLoop tackles the problem of good food being thrown away just because it’s close to its expiry date — something that hurts both the planet and business profits.",
+    "tools": ["Adobe", "Figma"],
+    "category": "CaseStudy",
+    "image": "/PortfolioCover/FoodLoopCover.webp",
+    "link": "/Foodloop-Project"
   },
   {
     "title": "Canada.ca Redesign: Enhancing UIUX for Government Services",

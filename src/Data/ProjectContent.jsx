@@ -1076,17 +1076,17 @@ const ProjectContent = {
             content: [
               [
                 {
-                  text: "Mobin Donut is a creative branding project developed from scratch, combining ",
+                  text: "Mobin Donut is a creative branding project combining ",
                   className: "text-black",
                 },
                 {
-                  text: "visual identity design with a bonus interactive web experience. ",
+                  text: "visual identity design with an interactive web experience.",
                   className: "text-orange font-medium",
                 },
               ],
               [
                 {
-                  text: "While the focus started with brand essentials like the logo, packaging, and marketing materials, I extended the project by developing a responsive web prototype, adding a 3D model viewer, API integration, and real-world deployment challenges.",
+                  text: "I extended the project beyond branding, developing a responsive web prototype, including a 3D model viewer and dynamic cart functionality.",
                   className: "text-black",
                 },
               ],
@@ -1124,7 +1124,7 @@ const ProjectContent = {
                 content: [
                   [
                     {
-                      text: "Mobin Donut is a bakery where people connect over donuts. We believe a simple donut can bring people together, creating moments of joy and shared experiences.",
+                      text: "Mobin Donut is a bakery where people connect over donuts, celebrating simple moments of joy and shared experiences.",
                       className: "text-black",
                     },
                   ],
@@ -1151,7 +1151,7 @@ const ProjectContent = {
                 content: [
                   [
                     {
-                      text: "Stylish young adults(25–40) and design-savvy families (30–50) who value premium quality, locally sourced ingredients, and minimalist aesthetics.",
+                      text: "Stylish young adults (25–40) and design-savvy families (30–50) who value premium quality, locally sourced ingredients, and minimalist aesthetics.",
                       className: "text-black",
                     },
                   ],
@@ -1178,13 +1178,7 @@ const ProjectContent = {
                   ],
                   [
                     {
-                      text: "Started with simple initials like 'mo' and 'md' for a clean look.",
-                      className: "text-black",
-                    },
-                  ],
-                  [
-                    {
-                      text: "Then, I worked on making the design unique and easy to remember. I included donut shapes to show what we’re about.",
+                      text: "Initially explored simple initials like ‘mo’ and ‘md’, later refining with donut shapes to reflect the brand’s essence.",
                       className: "text-black",
                     },
                   ],
@@ -1212,7 +1206,7 @@ const ProjectContent = {
                   ],
                   [
                     {
-                      text: "The left logo was chosen for its elegant, interconnected letters that symbolize our commitment to quality and community.",
+                      text: "Chose a logo with interconnected letters to symbolize elegance and community.",
                       className: "text-black",
                     },
                   ],
@@ -1268,13 +1262,13 @@ const ProjectContent = {
                   ],
                   [
                     {
-                      text: "The primary colours include Lotion and Beige, providing a clean, inviting backdrop.",
+                      text: "Primary Colours: Lotion and Beige for a clean, welcoming backdrop.",
                       className: "text-black",
                     },
                   ],
                   [
                     {
-                      text: "Peru adds a touch of earthy warmth, while Burnt Sienna introduces a playful, vibrant accent.",
+                      text: "Accent Colours: Peru for warmth and Burnt Sienna for vibrancy.",
                       className: "text-black",
                     },
                   ],
@@ -1302,13 +1296,13 @@ const ProjectContent = {
                   ],
                   [
                     {
-                      text: "Used Helvetica for its clean, readable style, available in Regular and Bold.",
+                      text: "Helvetica: Clean and readable, available in Regular and Bold.",
                       className: "text-black",
                     },
                   ],
                   [
                     {
-                      text: "Complementing it is Beloved Script, which adds a graceful, personal touch.",
+                      text: "Beloved Script: Adds grace and a personal touch.",
                       className: "text-black",
                     },
                   ],
@@ -1399,19 +1393,19 @@ const ProjectContent = {
                   ],
                   [
                     {
-                      text: "The design uses a 12-column for desktop and 4-column for mobile.",
+                      text: "Implemented a 12-column grid for desktop and 4-column grid for mobile, ensuring responsiveness.",
                       className: "text-black",
                     },
                   ],
                   [
                     {
-                      text: "Curves for a Cohesive Look",
+                      text: "Curves for Cohesion",
                       className: "text-orange font-medium",
                     },
                   ],
                   [
                     {
-                      text: "Inspired by the brand’s playful elegance, I incorporated rounded shapes in the header, footer, and cards, maintaining consistency with signature curves.",
+                      text: "Rounded shapes in key sections for playful elegance.",
                       className: "text-black",
                     },
                   ],
@@ -1425,7 +1419,7 @@ const ProjectContent = {
           },
           {
             type: "subtitle",
-            content: "Technology Stack",
+            content: "Efficient Design Handoff",
             bgColor: "bg-orange-bg",
           },
           {
@@ -1433,73 +1427,7 @@ const ProjectContent = {
             content: [
               [
                 {
-                  text: "• Modern UI:",
-                  className: "text-orange font-medium",
-                },
-              ],
-              [
-                {
-                  text: "Sleek user interface powered by React and Tailwind CSS.",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "• Interactive 3D Donut Viewer:",
-                  className: "text-orange font-medium",
-                },
-              ],
-              [
-                {
-                  text: "Explore donuts in 3D using Model Viewer.",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "• API Integration:",
-                  className: "text-orange font-medium",
-                },
-              ],
-              [
-                {
-                  text: "Fetch donut data from a mock API.",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "• Dynamic Cart Logic:",
-                  className: "text-orange font-medium",
-                },
-              ],
-              [
-                {
-                  text: "Built a functional shopping cart allowing users to add/remove donuts to/from the cart, update quantities of items in the cart and view the total price in real-time.",
-                  className: "text-black",
-                },
-              ],
-            ],
-          },
-          {
-            type: "subtitle",
-            content: "Challenges & Problem-Solving",
-            bgColor: "bg-orange-bg",
-          },
-          {
-            type: "text",
-            content: [
-              [
-                {
-                  text: "One of the most interesting technical challenges was ",
-                  className: "text-black",
-                },
-                {
-                  text: "hosting the site ",
-                  className: "text-orange font-medium",
-                },
-                {
-                  text: "while ensuring the mock API worked in a real environment:",
+                  text: "To ensure a smooth and effective handoff from design to development, I applied a structured approach that prioritized consistency, scalability, and ease of integration. This approach was based on:",
                   className: "text-black",
                 },
               ],
@@ -1513,13 +1441,13 @@ const ProjectContent = {
                 content: [
                   [
                     {
-                      text: "Problem",
+                      text: "1. Atomic Design System",
                       className: "text-orange font-medium",
                     },
                   ],
                   [
                     {
-                      text: "This approach bypassed the hosting limitations (my provider didn’t support custom ports) while keeping the user experience smooth and fully functional.",
+                      text: "I broke the design into small, reusable components—atoms (fonts/colors), molecules (buttons/inputs), and organisms (headers/footers).",
                       className: "text-black",
                     },
                   ],
@@ -1527,8 +1455,8 @@ const ProjectContent = {
               },
               {
                 type: "image",
-                url: "/Projects/MobinDonut/MobinDonutHostProblem.webp",
-                alt: "Mobin Donut Host Problem",
+                url: "/Projects/MobinDonut/MobinDonutAtomicDesignSystem.webp",
+                alt: "Age Distribution chart",
                 className: "w-full rounded",
               },
             ],
@@ -1541,13 +1469,13 @@ const ProjectContent = {
                 content: [
                   [
                     {
-                      text: "Solution",
+                      text: "2. 4-Point System",
                       className: "text-orange font-medium",
                     },
                   ],
                   [
                     {
-                      text: "I deployed the mock API on Glitch, creating a real, accessible online endpoint that enabled full data fetching without uploading everything to my own domain.",
+                      text: "I applied a 4-point system to all spacing, fonts, and layout. Everything was based on multiples of 4, ensuring a consistent and balanced design that was easy to implement.",
                       className: "text-black",
                     },
                   ],
@@ -1555,30 +1483,37 @@ const ProjectContent = {
               },
               {
                 type: "image",
-                url: "/Projects/MobinDonut/MobinDonutGlitch.webp",
-                alt: "Mobin Donut Host Solution",
+                url: "/Projects/MobinDonut/MobinDonut4PointSystem.webp",
+                alt: "Age Distribution chart",
                 className: "w-full rounded",
               },
             ],
           },
-          {
+{
             layout: "two-column-1-2",
             content: [
-              {},
               {
-                type: "code",
-                language: "html",
-                code: `
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('donuts.json'); 
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3001; 
-
-server.use(middlewares);
-server.use(router);
-server.listen(port);
-`,
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "3. Using CDNs",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "To simplify integration, I used CDNs like Tailwind CSS, FontAwesome, and Model Viewer. This allowed developers to link directly to the tools they needed, speeding up the process and avoiding local file dependencies.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/MobinDonut/MobinDonutUsingCDNs.webp",
+                alt: "Age Distribution chart",
+                className: "w-full rounded",
               },
             ],
           },
