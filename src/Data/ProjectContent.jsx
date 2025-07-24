@@ -1489,7 +1489,7 @@ const ProjectContent = {
               },
             ],
           },
-{
+          {
             layout: "two-column-1-2",
             content: [
               {
@@ -3131,74 +3131,15 @@ p{
     category: "WebDesign",
     liveDemoLink: "https://viida.org/",
     sections: [
-      // Introduction
+      // Double Diamond Approach
       {
         id: "section1",
-        title: "Introduction",
-        layout: "full-width",
-        content: [
-          {
-            type: "text",
-            content: [
-              [
-                {
-                  text: "VIIDA started with kids' tableware and expanded to adult products, earning awards like the German Red Dot and Japan Good Design.",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "I built their global website on Shopify to match their minimalist style.",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "Key tasks included:",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "1. Using ",
-                  className: "text-black",
-                },
-                {
-                  text: "FoxKit ",
-                  className: "text-orange font-medium",
-                },
-                {
-                  text: "to set up a simple and functional theme.",
-                  className: "text-black",
-                },
-              ],
-              [
-                {
-                  text: "2. Designing advanced page layouts with ",
-                  className: "text-black",
-                },
-                {
-                  text: "PageFly ",
-                  className: "text-orange font-medium",
-                },
-                {
-                  text: "to showcase products clearly and beautifully.",
-                  className: "text-black",
-                },
-              ],
-            ],
-          },
-        ],
-      },
-      // Design Process
-      {
-        id: "section2",
-        title: "Design Process",
+        title: "Double Diamond Approach",
         layout: "full-width",
         content: [
           {
             type: "subtitle",
-            content: "Wireframe",
+            content: "What's the problem?",
             bgColor: "bg-green-bg",
           },
           {
@@ -3206,13 +3147,184 @@ p{
             content: [
               [
                 {
-                  text: "Homepage",
+                  text: "1. Discover",
                   className: "text-orange font-medium",
                 },
               ],
               [
                 {
-                  text: "The homepage highlights diverse product categories, premium quality for all ages, and the numerous awards that set VIIDA apart.",
+                  text: "User feedback and analytics revealed key issues: cluttered pages, inconsistent design, and confusion around the naming customization feature.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "2. Define",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "We identified three priorities:",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Simplify layout and content",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Establish consistent visual design",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Improve the customized naming experience",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+          {
+            type: "subtitle",
+            content: "What's the solution?",
+            bgColor: "bg-green-bg",
+          },
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "3. Develop",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "Created wireframes and prototypes focusing on:",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Clean navigation",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Unified layout system",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "• Responsive, easy-to-use naming selection",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "4. Deliver",
+                  className: "text-orange font-medium",
+                },
+              ],
+              [
+                {
+                  text: "Launched a redesigned Shopify site with a streamlined interface, improved shopping flow, and intuitive customization, aligned with VIIDA’s minimalist branding.",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+        ],
+      },
+      {
+        id: "section2",
+        title: "Results",
+        layout: "full-width",
+        content: [
+          // Results
+          {
+            layout: "three-column",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "+ 133%",
+                      className: "text-green text-4xl font-semibold",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Conversion Rate",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "+ 150%",
+                      className: "text-green text-4xl font-semibold",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Monthly Revenue",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "+ 120%",
+                      className: "text-green text-4xl font-semibold",
+                    },
+                  ],
+                  [
+                    {
+                      text: "Customized Product Sales",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+            ],
+          },
+        ],
+      },
+
+      // Design Process
+      {
+        id: "section3",
+        title: "Wireframes",
+        layout: "full-width",
+        content: [
+          {
+            type: "subtitle",
+            content: "Homepage",
+            bgColor: "bg-green-bg",
+          },
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "Simplified messaging, product highlights, and award credibility elements",
                   className: "text-black",
                 },
               ],
@@ -3234,17 +3346,16 @@ p{
             ],
           },
           {
+            type: "subtitle",
+            content: "Category Page",
+            bgColor: "bg-green-bg",
+          },
+          {
             type: "text",
             content: [
               [
                 {
-                  text: "Category Page",
-                  className: "text-orange font-medium",
-                },
-              ],
-              [
-                {
-                  text: "To make shopping easier, a filter is set up on the left-hand side, allowing users to sort by product categories, prices, and colours.",
+                  text: "Clear filtering system for easier product discovery",
                   className: "text-black",
                 },
               ],
@@ -3266,17 +3377,16 @@ p{
             ],
           },
           {
+            type: "subtitle",
+            content: "Product Page",
+            bgColor: "bg-green-bg",
+          },
+          {
             type: "text",
             content: [
               [
                 {
-                  text: "Product Page",
-                  className: "text-orange font-medium",
-                },
-              ],
-              [
-                {
-                  text: "VIIDA offered a customized name laser-cut option for customers. On the product page, if 'None' is selected, the name text box disappears. When a font style is chosen, the text box reappears. This intuitive design helps users easily understand how to place their orders, reducing customer complaints and improving their shopping experience.",
+                  text: "Integrated interactive naming selection with responsive feedback for a seamless UX",
                   className: "text-black",
                 },
               ],
@@ -3301,7 +3411,7 @@ p{
       },
       // Deliverables
       {
-        id: "section3",
+        id: "section4",
         title: "Deliverables",
         layout: "full-width",
         content: [

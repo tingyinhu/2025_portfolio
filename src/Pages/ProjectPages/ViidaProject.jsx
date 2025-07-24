@@ -10,7 +10,7 @@ const ViidaProject = ({ project }) => {
       {/* Banner */}
       <Banner
         category="WebDesign"
-        title="VIIDA: Shopify Website for Lifestyle Productst"
+        title="VIIDA: Revamping E-Commerce with UI/UX Design"
         background="/Projects/Viida/ViidaBanner.webp"
       />
 
@@ -20,10 +20,10 @@ const ViidaProject = ({ project }) => {
       {/* InformationBox */}
       <InformationBox
         category="WebDesign"
-        problem="VIIDA needed a global website that reflected its minimalist style while effectively showcasing a diverse product range—from kids' tableware to award-winning adult products."
-        solution="Built a global Shopify website using FoxKit for a simple, functional theme and PageFly for advanced, visually appealing layouts that clearly present their products."
+        problem="The previous VIIDA website, built on WordPress, had a low conversion rate due to cluttered content, an inconsistent layout, and a confusing product customization experience. These issues negatively impacted user trust and shopping flow."
+        solution="I redesigned and migrated the site to Shopify, improving layout consistency, streamlining the navigation, and enhancing the customized naming feature to provide a more intuitive and efficient user experience."
         tools={["Shopify", "FoxKit", "PageFly", "Adobe suite"]}
-        roles={["UI Designer", "Web Developer"]}
+        roles={["UIUX Designer", "Web Developer"]}
         date="June 1, 2022 → June 30, 2022"
       />
 
