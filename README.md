@@ -1,18 +1,29 @@
-2025 Portfolio 🚀
-A responsive, animated portfolio built with React, React Router, Tailwind CSS, Anime.js and Lottie.
+# 🌟 2025 Portfolio
 
-🚀 Features
-⚡ Modern styling with Tailwind CSS
-⚡ Lottie animations for interactive effects
-⚡ Smooth animatedText with Anime.js
-⚡ Page navigation powered by React Router
+A responsive, animated portfolio built with **React**, **Tailwind CSS**, **Anime.js**, and **Lottie**.
 
-📥 Installation
-1️⃣ Install Dependencies
-npm install
+---
 
-2️⃣ Run the Project
-npm run dev
+## 🚀 Features
 
-✨ Author
-Ellie Hu.
+- ⚡ Modern Styling with Tailwind CSS  
+- ⚡ Lottie Animations for interactive effects  
+- ⚡ Smooth Animated Text using Anime.js  
+- ⚡ Page Navigation powered by React Router  
+- 🌐 Multi-language Support via `react-i18next`  
+- 📱 Fully Responsive on mobile, tablet, and desktop  
+
+---
+
+## 🖥 Wireframe
+https://www.figma.com/design/0R9pXmNOhkScS7CSS9Xr8T/%E3%80%902025%E3%80%91Portfolio?node-id=1-3&t=bDHNCbaR4Vu59ow1-1
+
+---
+
+## 🌍 Live Site
+https://hutingyin.com/
+
+---
+
+## ✍️ Author
+Created by Ellie Hu.
