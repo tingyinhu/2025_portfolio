@@ -138,6 +138,48 @@ const RenderContent = ({ content }) => {
         </div>
       );
 
+    case "google-slides":
+      return (
+        <div className="w-full aspect-video rounded overflow-hidden">
+          <iframe
+            src={content.embedUrl}
+            className="w-full h-full"
+            allowFullScreen
+            loading="lazy"
+            title={content.title || "Google Slides"}
+          />
+        </div>
+      );
+
+    case "google-doc":
+      return (
+        <div
+          className="w-full h-[580px] rounded overflow-auto"
+          style={{ transformOrigin: "0 0" }}
+        >
+          <iframe
+            src={content.embedUrl.replace("/edit?usp=sharing", "/preview")}
+            className="w-full h-full"
+            loading="lazy"
+            title={content.title}
+          />
+        </div>
+      );
+
+    case "flipsnack":
+      return (
+        <div className="w-full h-[300px] rounded overflow-hidden">
+          <iframe
+            src={content.embedUrl}
+            className="w-full h-full"
+            seamless="seamless"
+            allowFullScreen
+            allow="autoplay; clipboard-read; clipboard-write"
+            title={content.title || "Flipsnack Publication"}
+          />
+        </div>
+      );
+
     default:
       return null;
   }

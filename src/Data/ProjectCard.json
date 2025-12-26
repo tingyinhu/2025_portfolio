@@ -1,5 +1,13 @@
 [
   {
+    "title": "KindBridge: Freelance Multi-Brand Visual",
+    "description": "Improved brand alignment across KindBridge and its sub-brands through adaptable brochures, presentations, and webpage designs for consistent print and digital communication.",
+    "tools": ["Adobe", "Figma","Google Slides"],
+    "category": "Branding",
+    "image": "/PortfolioCover/KindbridgeCover.gif",
+    "link": "/Kindbridge-Project"
+  },
+  {
     "title": "Mobin Donuts: Branding to Development",
     "description": "Led design and development: branding in Figma, front-end with React, Tailwind CSS, and API integration.",
     "tools": ["Adobe", "Figma", "React", "Mock API"],

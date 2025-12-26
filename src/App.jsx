@@ -1,4 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Outlet, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Outlet,
+  useLocation,
+} from "react-router-dom";
 import { useEffect } from "react";
 import Sidebar from "./Components/global/Sidebar";
 import Footer from "./Components/global/Footer";
@@ -17,6 +23,7 @@ import UiuProject from "./Pages/ProjectPages/UiuProject";
 import PetronewProject from "./Pages/ProjectPages/PetronewProject";
 import CanadacaProject from "./Pages/ProjectPages/CanadacaProject";
 import FoodLoopProject from "./Pages/ProjectPages/FoodLoopProject";
+import KindbridgeProject from "./Pages/ProjectPages/KindbridgeProject";
 
 const Layout = () => {
   const location = useLocation();
@@ -26,7 +33,7 @@ const Layout = () => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "smooth", 
+      behavior: "smooth",
     });
   }, [location.pathname]);
 
@@ -57,7 +64,6 @@ const Layout = () => {
 };
 
 function App() {
-  
   return (
     <Router>
       <Routes>
@@ -66,10 +72,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/Casscycle-Project" element={<CasscycleProject />} />
-          <Route
-            path="/Mobin-Donut-Project"
-            element={<MobinDonutProject />}
-          />
+          <Route path="/Mobin-Donut-Project" element={<MobinDonutProject />} />
           <Route path="/Eatery-Project" element={<EateryProject />} />
           <Route path="/Kavi-Project" element={<KaviProject />} />
           <Route path="/Lms-Project" element={<LmsProject />} />
@@ -83,6 +86,7 @@ function App() {
           <Route path="/Petronew-Project" element={<PetronewProject />} />
           <Route path="/Canadaca-Project" element={<CanadacaProject />} />
           <Route path="/Foodloop-Project" element={<FoodLoopProject />} />
+          <Route path="/Kindbridge-Project" element={<KindbridgeProject />} />
         </Route>
       </Routes>
     </Router>

@@ -1,3 +1,5 @@
+import KindbridgeProject from "../Pages/ProjectPages/KindbridgeProject";
+
 const ProjectContent = {
   CasscycleProject: {
     category: "CaseStudy",
@@ -5292,6 +5294,415 @@ p{
           {
             type: "video",
             url: "/Projects/Canadaca/CanadaPrototype.mp4",
+          },
+        ],
+      },
+    ],
+  },
+  KindbridgeProject: {
+    category: "Branding",
+    sections: [
+      // Introduction
+      {
+        id: "section1",
+        title: "Introduction",
+        layout: "full-width",
+        content: [
+          {
+            type: "text",
+            content: [
+              [
+                {
+                  text: "Kindbridge, one of the first Centers of Excellence in the USA for Gambling and Technology Addictions, and its sub-brands Playwise and Stigma Stand Down needed consistent brand alignment across print and digital materials.",
+                  className: "text-black",
+                },
+              ],
+              [
+                {
+                  text: "I have created cohesive visual systems that respected each brand’s identity while ensuring clarity and consistency across all assets.",
+                  className: "text-black",
+                },
+              ],
+            ],
+          },
+        ],
+      },
+      // Design Process
+      {
+        id: "section2",
+        title: "Design Process",
+        layout: "full-width",
+        content: [
+          {
+            type: "subtitle",
+            content: "Adapting to Three Distinct Brands",
+            bgColor: "bg-orange-bg",
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Kindbridge",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "A calm and professional healthcare brand built around trust and support. The palette centers on soothing blues, with a refined visual system and a “K”-shaped wing motif symbolizing guidance, care, and helping individuals move toward recovery.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgeSite.gif",
+                alt: "Kindbridge Site",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "A warm and welcoming brand designed to feel approachable and supportive. Bright orange anchors the identity, paired with a strong grid system and clear visual hierarchy to ensure key messages and callouts stand out across educational and outreach materials.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwSite.gif",
+                alt: "Kindbridge Site",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Stigma Stand Down",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                  [
+                    {
+                      text: "A bold, mission-driven identity created for military and veteran audiences. Earthy camel tones combined with black, orange, and green backgrounds convey strength, resilience, and seriousness while maintaining high visibility and impact.",
+                      className: "text-black",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgeSsdSite.gif",
+                alt: "Kindbridge Site",
+                className: "w-full rounded",
+              },
+            ],
+          },
+        ],
+      },
+      // Design Deliverables
+      {
+        id: "section3",
+        title: "Design Deliverables",
+        layout: "full-width",
+        content: [
+          {
+            type: "subtitle",
+            content: "Templates",
+            bgColor: "bg-orange-bg",
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Kindbridge — Presentation Template",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "google-slides",
+                title: "Kindbridge — Presentation Template",
+                embedUrl:
+                  "https://docs.google.com/presentation/d/e/2PACX-1vSNsrsNzldCJnQmFiaeNySN2zY4yW8EM9H7B0qneHBxfNLZakp7TT_nf_SKAM7yiQ/pubembed?start=true&loop=true&delayms=3000",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Kindbridge — Digital Banner Template",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "google-slides",
+                title: "Kindbridge — Digital Banner Template",
+                embedUrl:
+                  "https://docs.google.com/presentation/d/e/2PACX-1vQVgHoL1GBwsnAqdjT4abk8LlH0Jkt2pPtZLuZmCwbe0i2Su9qNWsFwueEHoKPphESKYuuobM69qmb6/pubembed?start=true&loop=true&delayms=3000",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — White Paper Template (Google doc.)",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "google-doc",
+                title: "Playwise — White Paper Template",
+                embedUrl:
+                  "https://docs.google.com/document/d/1E33iQMIXrrkC1Tw1tV56CncVFyt4FrPdoMppxsS0IeM/preview",
+              },
+            ],
+          },
+          {
+            type: "subtitle",
+            content: "Assets",
+            bgColor: "bg-orange-bg",
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Kindbridge — Business Case Brochure",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "flipsnack",
+                title: "KindBridge Business Case",
+                embedUrl:
+                  "https://player.flipsnack.com?hash=Qjk4ODY4N0E5RjcrdmM4d2lpNXVuZg==",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — Marketing Brochure",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwBrochure.webp",
+                alt: "Playwise — Marketing Brochure",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — Business Card",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwBusinessCard.webp",
+                alt: "Playwise — Business Card",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — Magnet",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwMagnet.webp",
+                alt: "Playwise — Magnet",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — Branded Pen",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwPen.webp",
+                alt: "Playwise — Branded Pen",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — Poster",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwPoster.webp",
+                alt: "Playwise — Poster",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Playwise — ATM Wrap",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgePwAtmWrap.webp",
+                alt: "Playwise — ATM Wrap",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Stigma Stand Down — Flag",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgeSsdFlag.webp",
+                alt: "Stigma Stand Down — Flag",
+                className: "w-full rounded",
+              },
+            ],
+          },
+          {
+            layout: "two-column-1-2",
+            content: [
+              {
+                type: "text",
+                content: [
+                  [
+                    {
+                      text: "Stigma Stand Down — Patch",
+                      className: "text-orange font-medium",
+                    },
+                  ],
+                ],
+              },
+              {
+                type: "image",
+                url: "/Projects/Kindbridge/KindbridgeSsdPatch.webp",
+                alt: "Stigma Stand Down — Patch",
+                className: "w-full rounded",
+              },
+            ],
           },
         ],
       },
