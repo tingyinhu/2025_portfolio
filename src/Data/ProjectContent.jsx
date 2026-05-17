@@ -1065,7 +1065,7 @@ const ProjectContent = {
   },
   MobinDonutProject: {
     category: "Branding",
-    liveDemoLink: "https://mobindonut.hutingyin.com/",
+    liveDemoLink: "https://mobin-donut.vercel.app/",
     sections: [
       // Introduction
       {
@@ -1537,7 +1537,7 @@ const ProjectContent = {
   },
   EateryProject: {
     category: "WebDesign",
-    liveDemoLink: "https://www.eatery.hutingyin.com/",
+    liveDemoLink: "https://eatery-restaurant.vercel.app/index.html",
     sections: [
       // Introduction
       {
